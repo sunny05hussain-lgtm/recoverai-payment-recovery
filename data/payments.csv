@@ -1,0 +1,1001 @@
+payment_id,customer_id,amount,currency,payment_method,failure_code,failure_message,attempt_number,customer_segment,created_at,is_recovered,recovered_amount,split,dataset_seed
+pay_000001,cus_00138,25000,INR,netbanking,authentication_failure,Authentication failure,2,returning_customer,2026-01-01T08:19:00Z,true,25000,development,20260822
+pay_000002,cus_00011,799,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-04-21T14:45:00Z,false,0,development,20260822
+pay_000003,cus_00053,50000,INR,netbanking,technical_error,Unknown technical error,1,subscription,2026-03-04T12:48:00Z,true,50000,development,20260822
+pay_000004,cus_00087,4999,INR,card,technical_error,Unknown technical error,1,new_customer,2026-01-09T11:59:00Z,true,4999,development,20260822
+pay_000005,cus_00027,999,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-06-15T07:45:00Z,true,999,development,20260822
+pay_000006,cus_00360,1499,INR,upi,bank_timeout,Bank timeout,4,returning_customer,2026-02-03T06:21:00Z,true,1499,development,20260822
+pay_000007,cus_00131,7500,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-06-15T01:01:00Z,true,7500,development,20260822
+pay_000008,cus_00028,12000,INR,upi,insufficient_funds,Insufficient funds,3,subscription,2026-06-29T13:39:00Z,false,0,development,20260822
+pay_000009,cus_00139,999,INR,wallet,authentication_failure,Authentication failure,4,new_customer,2026-03-21T13:06:00Z,false,0,development,20260822
+pay_000010,cus_00315,499,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-02-12T13:48:00Z,false,0,development,20260822
+pay_000011,cus_00224,4999,INR,netbanking,suspected_fraud,Suspected fraud,2,subscription,2026-05-25T19:09:00Z,false,0,development,20260822
+pay_000012,cus_00142,50000,INR,netbanking,invalid_account,Invalid account,1,returning_customer,2026-01-22T04:34:00Z,false,0,development,20260822
+pay_000013,cus_00414,4999,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-02-20T16:31:00Z,true,4999,development,20260822
+pay_000014,cus_00251,50000,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-05-23T18:29:00Z,true,50000,development,20260822
+pay_000015,cus_00134,7500,INR,wallet,invalid_account,Invalid account,3,returning_customer,2026-05-24T07:38:00Z,false,0,development,20260822
+pay_000016,cus_00092,499,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-05-26T18:18:00Z,true,499,development,20260822
+pay_000017,cus_00056,499,INR,netbanking,technical_error,Unknown technical error,1,returning_customer,2026-03-28T20:30:00Z,false,0,development,20260822
+pay_000018,cus_00081,1499,INR,wallet,bank_timeout,Bank timeout,2,business_customer,2026-04-18T17:17:00Z,true,1499,development,20260822
+pay_000019,cus_00148,999,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-02-22T06:54:00Z,true,999,development,20260822
+pay_000020,cus_00196,1999,INR,card,daily_limit_exceeded,Daily limit exceeded,4,subscription,2026-01-23T17:08:00Z,false,0,development,20260822
+pay_000021,cus_00220,25000,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-12T23:06:00Z,true,25000,development,20260822
+pay_000022,cus_00324,12000,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-14T00:54:00Z,true,12000,development,20260822
+pay_000023,cus_00260,25000,INR,wallet,authentication_failure,Authentication failure,4,business_customer,2026-02-16T03:37:00Z,false,0,development,20260822
+pay_000024,cus_00396,25000,INR,upi,suspected_fraud,Suspected fraud,2,business_customer,2026-02-18T18:05:00Z,false,0,development,20260822
+pay_000025,cus_00393,4999,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-06-28T20:48:00Z,true,4999,development,20260822
+pay_000026,cus_00041,25000,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-06-18T04:27:00Z,false,0,development,20260822
+pay_000027,cus_00413,1999,INR,card,authentication_failure,Authentication failure,1,new_customer,2026-02-24T15:17:00Z,false,0,development,20260822
+pay_000028,cus_00296,1999,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-06-26T13:26:00Z,true,1999,development,20260822
+pay_000029,cus_00401,1999,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-03-04T08:27:00Z,true,1999,development,20260822
+pay_000030,cus_00191,999,INR,card,technical_error,Unknown technical error,1,subscription,2026-04-22T15:58:00Z,true,999,development,20260822
+pay_000031,cus_00204,25000,INR,netbanking,insufficient_funds,Insufficient funds,3,business_customer,2026-05-26T05:58:00Z,false,0,development,20260822
+pay_000032,cus_00014,999,INR,wallet,expired_card,Expired card,3,new_customer,2026-01-28T10:52:00Z,false,0,development,20260822
+pay_000033,cus_00020,1999,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-01-24T08:20:00Z,true,1999,development,20260822
+pay_000034,cus_00372,999,INR,card,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-01-02T08:02:00Z,false,0,development,20260822
+pay_000035,cus_00004,25000,INR,card,technical_error,Unknown technical error,1,business_customer,2026-05-10T23:12:00Z,true,25000,development,20260822
+pay_000036,cus_00053,50000,INR,card,authentication_failure,Authentication failure,1,subscription,2026-04-14T21:55:00Z,true,50000,development,20260822
+pay_000037,cus_00369,799,INR,netbanking,invalid_account,Invalid account,4,returning_customer,2026-06-21T22:38:00Z,false,0,development,20260822
+pay_000038,cus_00172,2999,INR,netbanking,authentication_failure,Authentication failure,1,business_customer,2026-03-31T14:46:00Z,true,2999,development,20260822
+pay_000039,cus_00173,999,INR,upi,insufficient_funds,Insufficient funds,2,returning_customer,2026-02-01T06:17:00Z,true,999,development,20260822
+pay_000040,cus_00185,7500,INR,wallet,insufficient_funds,Insufficient funds,2,business_customer,2026-06-24T16:04:00Z,false,0,development,20260822
+pay_000041,cus_00250,25000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,subscription,2026-04-11T05:35:00Z,true,25000,development,20260822
+pay_000042,cus_00350,1499,INR,card,expired_card,Expired card,1,returning_customer,2026-04-03T09:22:00Z,false,0,development,20260822
+pay_000043,cus_00299,2999,INR,card,insufficient_funds,Insufficient funds,3,new_customer,2026-02-18T22:38:00Z,false,0,development,20260822
+pay_000044,cus_00151,1499,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-06-25T01:31:00Z,false,0,development,20260822
+pay_000045,cus_00330,50000,INR,netbanking,technical_error,Unknown technical error,2,subscription,2026-05-01T00:20:00Z,false,0,development,20260822
+pay_000046,cus_00160,1499,INR,wallet,authentication_failure,Authentication failure,4,subscription,2026-03-30T22:53:00Z,false,0,development,20260822
+pay_000047,cus_00228,50000,INR,netbanking,insufficient_funds,Insufficient funds,3,new_customer,2026-06-03T18:19:00Z,false,0,development,20260822
+pay_000048,cus_00407,1499,INR,wallet,invalid_account,Invalid account,3,new_customer,2026-03-12T21:44:00Z,false,0,development,20260822
+pay_000049,cus_00354,4999,INR,netbanking,expired_card,Expired card,2,subscription,2026-02-26T12:09:00Z,true,4999,development,20260822
+pay_000050,cus_00135,50000,INR,netbanking,bank_timeout,Bank timeout,1,new_customer,2026-06-17T19:32:00Z,false,0,development,20260822
+pay_000051,cus_00388,7500,INR,wallet,technical_error,Unknown technical error,1,business_customer,2026-06-19T06:02:00Z,false,0,development,20260822
+pay_000052,cus_00360,1499,INR,card,bank_timeout,Bank timeout,1,business_customer,2026-04-25T22:50:00Z,true,1499,development,20260822
+pay_000053,cus_00404,50000,INR,card,authentication_failure,Authentication failure,3,subscription,2026-03-31T04:34:00Z,false,0,development,20260822
+pay_000054,cus_00277,499,INR,upi,suspected_fraud,Suspected fraud,1,business_customer,2026-04-10T10:57:00Z,false,0,development,20260822
+pay_000055,cus_00239,12000,INR,wallet,bank_timeout,Bank timeout,2,business_customer,2026-01-21T03:17:00Z,true,12000,development,20260822
+pay_000056,cus_00149,1999,INR,card,invalid_account,Invalid account,1,new_customer,2026-02-26T04:12:00Z,false,0,development,20260822
+pay_000057,cus_00237,499,INR,netbanking,invalid_account,Invalid account,1,new_customer,2026-06-14T15:03:00Z,false,0,development,20260822
+pay_000058,cus_00255,999,INR,wallet,technical_error,Unknown technical error,2,business_customer,2026-04-19T07:05:00Z,false,0,development,20260822
+pay_000059,cus_00260,4999,INR,card,technical_error,Unknown technical error,2,returning_customer,2026-05-21T06:33:00Z,false,0,development,20260822
+pay_000060,cus_00013,1999,INR,card,technical_error,Unknown technical error,2,business_customer,2026-01-16T17:55:00Z,true,1999,development,20260822
+pay_000061,cus_00393,50000,INR,wallet,authentication_failure,Authentication failure,2,new_customer,2026-03-14T23:25:00Z,false,0,development,20260822
+pay_000062,cus_00156,2999,INR,wallet,insufficient_funds,Insufficient funds,2,returning_customer,2026-04-03T08:51:00Z,false,0,development,20260822
+pay_000063,cus_00353,2999,INR,card,suspected_fraud,Suspected fraud,1,returning_customer,2026-03-25T20:07:00Z,false,0,development,20260822
+pay_000064,cus_00354,1999,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-01-19T00:45:00Z,true,1999,development,20260822
+pay_000065,cus_00295,2999,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-04-01T01:37:00Z,true,2999,development,20260822
+pay_000066,cus_00339,7500,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-02-25T16:22:00Z,true,7500,development,20260822
+pay_000067,cus_00336,799,INR,upi,suspected_fraud,Suspected fraud,1,business_customer,2026-01-21T04:39:00Z,false,0,development,20260822
+pay_000068,cus_00346,12000,INR,wallet,authentication_failure,Authentication failure,2,new_customer,2026-03-23T09:28:00Z,false,0,development,20260822
+pay_000069,cus_00048,999,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-01T21:08:00Z,false,0,development,20260822
+pay_000070,cus_00003,1999,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-06-02T21:21:00Z,false,0,development,20260822
+pay_000071,cus_00104,499,INR,upi,authentication_failure,Authentication failure,3,subscription,2026-04-14T23:10:00Z,false,0,development,20260822
+pay_000072,cus_00039,25000,INR,netbanking,technical_error,Unknown technical error,1,business_customer,2026-04-02T00:54:00Z,true,25000,development,20260822
+pay_000073,cus_00014,7500,INR,wallet,expired_card,Expired card,1,new_customer,2026-04-28T00:15:00Z,true,7500,development,20260822
+pay_000074,cus_00366,499,INR,upi,suspected_fraud,Suspected fraud,1,business_customer,2026-01-07T13:12:00Z,false,0,development,20260822
+pay_000075,cus_00063,1999,INR,netbanking,technical_error,Unknown technical error,1,returning_customer,2026-03-02T15:42:00Z,true,1999,development,20260822
+pay_000076,cus_00330,7500,INR,wallet,authentication_failure,Authentication failure,1,subscription,2026-03-31T04:33:00Z,false,0,development,20260822
+pay_000077,cus_00237,7500,INR,netbanking,authentication_failure,Authentication failure,1,business_customer,2026-04-16T21:44:00Z,false,0,development,20260822
+pay_000078,cus_00279,2999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-05-19T12:24:00Z,false,0,development,20260822
+pay_000079,cus_00336,1999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-03-31T12:21:00Z,false,0,development,20260822
+pay_000080,cus_00275,499,INR,card,bank_timeout,Bank timeout,1,returning_customer,2026-01-13T08:36:00Z,true,499,development,20260822
+pay_000081,cus_00219,999,INR,upi,daily_limit_exceeded,Daily limit exceeded,4,returning_customer,2026-01-20T04:12:00Z,false,0,development,20260822
+pay_000082,cus_00207,25000,INR,upi,technical_error,Unknown technical error,2,new_customer,2026-04-29T14:51:00Z,true,25000,development,20260822
+pay_000083,cus_00249,7500,INR,wallet,invalid_account,Invalid account,1,returning_customer,2026-04-30T10:38:00Z,false,0,development,20260822
+pay_000084,cus_00235,1499,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-04-19T14:50:00Z,false,0,development,20260822
+pay_000085,cus_00163,12000,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-05-30T12:53:00Z,false,0,development,20260822
+pay_000086,cus_00056,25000,INR,upi,technical_error,Unknown technical error,1,business_customer,2026-05-25T16:49:00Z,false,0,development,20260822
+pay_000087,cus_00275,1499,INR,card,expired_card,Expired card,3,business_customer,2026-05-04T23:24:00Z,false,0,development,20260822
+pay_000088,cus_00349,999,INR,wallet,insufficient_funds,Insufficient funds,3,subscription,2026-05-05T00:16:00Z,false,0,development,20260822
+pay_000089,cus_00282,4999,INR,wallet,invalid_account,Invalid account,2,subscription,2026-01-19T22:33:00Z,false,0,development,20260822
+pay_000090,cus_00103,12000,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-05-28T12:42:00Z,true,12000,development,20260822
+pay_000091,cus_00212,12000,INR,netbanking,invalid_account,Invalid account,1,returning_customer,2026-03-16T05:08:00Z,false,0,development,20260822
+pay_000092,cus_00242,799,INR,wallet,expired_card,Expired card,3,new_customer,2026-05-09T19:39:00Z,true,799,development,20260822
+pay_000093,cus_00357,25000,INR,wallet,daily_limit_exceeded,Daily limit exceeded,3,new_customer,2026-03-21T08:24:00Z,true,25000,development,20260822
+pay_000094,cus_00044,12000,INR,card,technical_error,Unknown technical error,1,business_customer,2026-03-13T22:29:00Z,true,12000,development,20260822
+pay_000095,cus_00316,12000,INR,card,authentication_failure,Authentication failure,1,new_customer,2026-01-12T12:25:00Z,true,12000,development,20260822
+pay_000096,cus_00214,12000,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-04-25T04:08:00Z,true,12000,development,20260822
+pay_000097,cus_00050,2999,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-05-10T02:43:00Z,false,0,development,20260822
+pay_000098,cus_00109,1999,INR,wallet,authentication_failure,Authentication failure,1,subscription,2026-02-14T20:53:00Z,true,1999,development,20260822
+pay_000099,cus_00169,12000,INR,netbanking,suspected_fraud,Suspected fraud,3,returning_customer,2026-06-08T14:21:00Z,false,0,development,20260822
+pay_000100,cus_00341,4999,INR,wallet,insufficient_funds,Insufficient funds,2,new_customer,2026-02-08T04:34:00Z,true,4999,development,20260822
+pay_000101,cus_00180,499,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-04-24T21:15:00Z,true,499,development,20260822
+pay_000102,cus_00199,2999,INR,upi,invalid_account,Invalid account,2,subscription,2026-04-06T16:59:00Z,false,0,development,20260822
+pay_000103,cus_00130,7500,INR,wallet,authentication_failure,Authentication failure,1,new_customer,2026-04-23T09:15:00Z,true,7500,development,20260822
+pay_000104,cus_00239,7500,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-02-15T07:40:00Z,true,7500,development,20260822
+pay_000105,cus_00219,2999,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-03-08T19:39:00Z,true,2999,development,20260822
+pay_000106,cus_00099,499,INR,netbanking,technical_error,Unknown technical error,3,business_customer,2026-02-21T16:49:00Z,true,499,development,20260822
+pay_000107,cus_00077,7500,INR,netbanking,bank_timeout,Bank timeout,1,new_customer,2026-06-28T10:31:00Z,true,7500,development,20260822
+pay_000108,cus_00388,999,INR,netbanking,expired_card,Expired card,1,subscription,2026-04-22T02:26:00Z,true,999,development,20260822
+pay_000109,cus_00376,2999,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-01-29T05:52:00Z,true,2999,development,20260822
+pay_000110,cus_00181,499,INR,upi,bank_timeout,Bank timeout,3,new_customer,2026-06-23T21:36:00Z,true,499,development,20260822
+pay_000111,cus_00137,7500,INR,netbanking,suspected_fraud,Suspected fraud,1,new_customer,2026-05-06T06:34:00Z,false,0,development,20260822
+pay_000112,cus_00328,4999,INR,wallet,suspected_fraud,Suspected fraud,2,subscription,2026-06-21T08:20:00Z,false,0,development,20260822
+pay_000113,cus_00148,50000,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-02-18T03:35:00Z,false,0,development,20260822
+pay_000114,cus_00294,999,INR,netbanking,technical_error,Unknown technical error,2,new_customer,2026-05-21T02:12:00Z,true,999,development,20260822
+pay_000115,cus_00099,1999,INR,wallet,invalid_account,Invalid account,2,new_customer,2026-06-27T04:04:00Z,false,0,development,20260822
+pay_000116,cus_00386,1999,INR,wallet,expired_card,Expired card,1,subscription,2026-05-26T06:03:00Z,true,1999,development,20260822
+pay_000117,cus_00151,25000,INR,card,authentication_failure,Authentication failure,1,new_customer,2026-03-24T11:28:00Z,true,25000,development,20260822
+pay_000118,cus_00320,799,INR,card,technical_error,Unknown technical error,2,returning_customer,2026-06-14T21:46:00Z,true,799,development,20260822
+pay_000119,cus_00300,7500,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-01-16T16:34:00Z,true,7500,development,20260822
+pay_000120,cus_00186,2999,INR,card,technical_error,Unknown technical error,1,returning_customer,2026-05-11T22:38:00Z,true,2999,development,20260822
+pay_000121,cus_00051,499,INR,card,authentication_failure,Authentication failure,2,subscription,2026-06-19T22:10:00Z,false,0,development,20260822
+pay_000122,cus_00399,12000,INR,upi,insufficient_funds,Insufficient funds,3,returning_customer,2026-01-04T10:07:00Z,false,0,development,20260822
+pay_000123,cus_00377,799,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-02-22T15:41:00Z,true,799,development,20260822
+pay_000124,cus_00083,499,INR,card,invalid_account,Invalid account,2,subscription,2026-03-05T08:58:00Z,false,0,development,20260822
+pay_000125,cus_00182,7500,INR,netbanking,technical_error,Unknown technical error,3,new_customer,2026-01-31T09:04:00Z,false,0,development,20260822
+pay_000126,cus_00366,50000,INR,upi,expired_card,Expired card,1,new_customer,2026-01-06T15:47:00Z,true,50000,development,20260822
+pay_000127,cus_00222,2999,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-05-20T06:57:00Z,false,0,development,20260822
+pay_000128,cus_00261,25000,INR,wallet,suspected_fraud,Suspected fraud,1,subscription,2026-04-02T09:28:00Z,false,0,development,20260822
+pay_000129,cus_00379,2999,INR,wallet,bank_timeout,Bank timeout,3,new_customer,2026-03-19T00:22:00Z,false,0,development,20260822
+pay_000130,cus_00291,1499,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-03-24T04:37:00Z,true,1499,development,20260822
+pay_000131,cus_00274,25000,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-06-12T09:56:00Z,false,0,development,20260822
+pay_000132,cus_00339,7500,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-03-14T17:21:00Z,true,7500,development,20260822
+pay_000133,cus_00075,4999,INR,upi,expired_card,Expired card,4,new_customer,2026-01-10T07:55:00Z,false,0,development,20260822
+pay_000134,cus_00215,799,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-03-03T05:08:00Z,false,0,development,20260822
+pay_000135,cus_00069,2999,INR,card,insufficient_funds,Insufficient funds,2,returning_customer,2026-02-13T07:12:00Z,true,2999,development,20260822
+pay_000136,cus_00381,7500,INR,wallet,invalid_account,Invalid account,2,subscription,2026-04-06T04:28:00Z,false,0,development,20260822
+pay_000137,cus_00390,1999,INR,upi,technical_error,Unknown technical error,1,business_customer,2026-03-03T11:40:00Z,true,1999,development,20260822
+pay_000138,cus_00214,12000,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-05-14T14:27:00Z,false,0,development,20260822
+pay_000139,cus_00381,4999,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-01-22T11:18:00Z,false,0,development,20260822
+pay_000140,cus_00377,1499,INR,wallet,insufficient_funds,Insufficient funds,3,business_customer,2026-02-23T10:13:00Z,false,0,development,20260822
+pay_000141,cus_00378,50000,INR,card,technical_error,Unknown technical error,1,new_customer,2026-03-22T05:58:00Z,true,50000,development,20260822
+pay_000142,cus_00273,7500,INR,upi,insufficient_funds,Insufficient funds,2,subscription,2026-03-05T23:04:00Z,false,0,development,20260822
+pay_000143,cus_00064,25000,INR,card,expired_card,Expired card,1,subscription,2026-04-28T19:44:00Z,true,25000,development,20260822
+pay_000144,cus_00119,12000,INR,upi,expired_card,Expired card,1,returning_customer,2026-01-30T02:17:00Z,true,12000,development,20260822
+pay_000145,cus_00362,4999,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-01-26T22:04:00Z,true,4999,development,20260822
+pay_000146,cus_00408,1499,INR,upi,expired_card,Expired card,4,business_customer,2026-04-20T09:47:00Z,true,1499,development,20260822
+pay_000147,cus_00226,1499,INR,card,expired_card,Expired card,2,business_customer,2026-05-05T03:42:00Z,true,1499,development,20260822
+pay_000148,cus_00063,1999,INR,upi,bank_timeout,Bank timeout,4,business_customer,2026-03-01T22:08:00Z,true,1999,development,20260822
+pay_000149,cus_00039,999,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-01-08T01:20:00Z,true,999,development,20260822
+pay_000150,cus_00414,799,INR,wallet,technical_error,Unknown technical error,1,subscription,2026-02-12T16:00:00Z,false,0,development,20260822
+pay_000151,cus_00082,1499,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-18T03:28:00Z,true,1499,development,20260822
+pay_000152,cus_00077,1499,INR,upi,expired_card,Expired card,2,subscription,2026-06-03T04:27:00Z,true,1499,development,20260822
+pay_000153,cus_00291,1499,INR,netbanking,insufficient_funds,Insufficient funds,1,subscription,2026-05-01T12:23:00Z,true,1499,development,20260822
+pay_000154,cus_00197,499,INR,wallet,insufficient_funds,Insufficient funds,4,business_customer,2026-02-05T18:45:00Z,false,0,development,20260822
+pay_000155,cus_00380,2999,INR,netbanking,suspected_fraud,Suspected fraud,1,subscription,2026-03-31T16:50:00Z,false,0,development,20260822
+pay_000156,cus_00312,4999,INR,netbanking,authentication_failure,Authentication failure,1,new_customer,2026-01-30T01:10:00Z,true,4999,development,20260822
+pay_000157,cus_00029,1999,INR,card,authentication_failure,Authentication failure,1,business_customer,2026-02-07T16:42:00Z,false,0,development,20260822
+pay_000158,cus_00301,12000,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-01-08T03:46:00Z,true,12000,development,20260822
+pay_000159,cus_00359,2999,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-02-23T10:45:00Z,false,0,development,20260822
+pay_000160,cus_00180,25000,INR,wallet,authentication_failure,Authentication failure,2,new_customer,2026-01-25T22:30:00Z,false,0,development,20260822
+pay_000161,cus_00166,2999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-04-28T18:25:00Z,false,0,development,20260822
+pay_000162,cus_00315,799,INR,card,insufficient_funds,Insufficient funds,2,new_customer,2026-05-10T22:36:00Z,false,0,development,20260822
+pay_000163,cus_00312,999,INR,card,technical_error,Unknown technical error,1,new_customer,2026-04-10T13:48:00Z,false,0,development,20260822
+pay_000164,cus_00412,50000,INR,wallet,insufficient_funds,Insufficient funds,2,new_customer,2026-06-15T12:56:00Z,false,0,development,20260822
+pay_000165,cus_00010,1999,INR,wallet,bank_timeout,Bank timeout,2,subscription,2026-05-10T17:42:00Z,true,1999,development,20260822
+pay_000166,cus_00238,1499,INR,upi,invalid_account,Invalid account,2,returning_customer,2026-04-28T19:44:00Z,false,0,development,20260822
+pay_000167,cus_00017,1999,INR,upi,expired_card,Expired card,1,returning_customer,2026-01-31T22:44:00Z,true,1999,development,20260822
+pay_000168,cus_00311,1499,INR,upi,bank_timeout,Bank timeout,2,subscription,2026-03-26T05:11:00Z,false,0,development,20260822
+pay_000169,cus_00321,499,INR,netbanking,suspected_fraud,Suspected fraud,1,new_customer,2026-05-26T14:37:00Z,false,0,development,20260822
+pay_000170,cus_00204,499,INR,netbanking,insufficient_funds,Insufficient funds,1,subscription,2026-04-27T20:49:00Z,false,0,development,20260822
+pay_000171,cus_00116,1499,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-02-07T05:11:00Z,false,0,development,20260822
+pay_000172,cus_00198,1999,INR,card,invalid_account,Invalid account,1,business_customer,2026-01-10T19:55:00Z,false,0,development,20260822
+pay_000173,cus_00065,799,INR,netbanking,insufficient_funds,Insufficient funds,1,subscription,2026-01-16T17:30:00Z,false,0,development,20260822
+pay_000174,cus_00109,4999,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-04-20T01:51:00Z,true,4999,development,20260822
+pay_000175,cus_00311,7500,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-06-02T05:30:00Z,false,0,development,20260822
+pay_000176,cus_00318,1999,INR,card,technical_error,Unknown technical error,3,returning_customer,2026-04-19T18:18:00Z,false,0,development,20260822
+pay_000177,cus_00085,1999,INR,netbanking,authentication_failure,Authentication failure,2,returning_customer,2026-01-17T23:41:00Z,true,1999,development,20260822
+pay_000178,cus_00090,1499,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-01-19T02:54:00Z,true,1499,development,20260822
+pay_000179,cus_00397,1499,INR,card,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-02-07T01:13:00Z,true,1499,development,20260822
+pay_000180,cus_00337,1999,INR,upi,technical_error,Unknown technical error,2,business_customer,2026-06-14T20:34:00Z,true,1999,development,20260822
+pay_000181,cus_00105,4999,INR,card,authentication_failure,Authentication failure,1,new_customer,2026-06-02T12:10:00Z,true,4999,development,20260822
+pay_000182,cus_00134,1499,INR,card,technical_error,Unknown technical error,3,business_customer,2026-05-28T23:05:00Z,false,0,development,20260822
+pay_000183,cus_00321,50000,INR,netbanking,technical_error,Unknown technical error,3,business_customer,2026-06-11T08:32:00Z,true,50000,development,20260822
+pay_000184,cus_00257,499,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,returning_customer,2026-01-01T22:57:00Z,false,0,development,20260822
+pay_000185,cus_00221,799,INR,card,bank_timeout,Bank timeout,3,returning_customer,2026-04-05T02:52:00Z,true,799,development,20260822
+pay_000186,cus_00071,25000,INR,card,invalid_account,Invalid account,1,returning_customer,2026-01-23T21:18:00Z,false,0,development,20260822
+pay_000187,cus_00178,1999,INR,wallet,technical_error,Unknown technical error,1,returning_customer,2026-06-19T09:47:00Z,true,1999,development,20260822
+pay_000188,cus_00069,50000,INR,card,technical_error,Unknown technical error,1,subscription,2026-06-09T21:29:00Z,true,50000,development,20260822
+pay_000189,cus_00339,1499,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-03-12T12:40:00Z,false,0,development,20260822
+pay_000190,cus_00252,12000,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-06-14T20:25:00Z,true,12000,development,20260822
+pay_000191,cus_00068,12000,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-03-01T03:26:00Z,false,0,development,20260822
+pay_000192,cus_00092,7500,INR,upi,suspected_fraud,Suspected fraud,1,subscription,2026-05-28T08:59:00Z,false,0,development,20260822
+pay_000193,cus_00046,50000,INR,upi,insufficient_funds,Insufficient funds,2,new_customer,2026-06-09T00:52:00Z,true,50000,development,20260822
+pay_000194,cus_00019,25000,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-05T21:45:00Z,true,25000,development,20260822
+pay_000195,cus_00254,1999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-02-28T09:37:00Z,false,0,development,20260822
+pay_000196,cus_00077,1499,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-06-11T14:53:00Z,true,1499,development,20260822
+pay_000197,cus_00397,499,INR,upi,insufficient_funds,Insufficient funds,2,new_customer,2026-01-06T13:55:00Z,true,499,development,20260822
+pay_000198,cus_00048,2999,INR,card,suspected_fraud,Suspected fraud,3,returning_customer,2026-06-10T21:26:00Z,false,0,development,20260822
+pay_000199,cus_00204,2999,INR,card,expired_card,Expired card,2,subscription,2026-03-26T00:17:00Z,true,2999,development,20260822
+pay_000200,cus_00067,25000,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-05-25T21:11:00Z,false,0,development,20260822
+pay_000201,cus_00396,799,INR,netbanking,bank_timeout,Bank timeout,2,subscription,2026-05-13T18:21:00Z,false,0,development,20260822
+pay_000202,cus_00375,2999,INR,wallet,technical_error,Unknown technical error,2,business_customer,2026-03-12T03:39:00Z,true,2999,development,20260822
+pay_000203,cus_00152,799,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-03-23T21:25:00Z,false,0,development,20260822
+pay_000204,cus_00065,2999,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-03-29T19:28:00Z,false,0,development,20260822
+pay_000205,cus_00030,7500,INR,netbanking,suspected_fraud,Suspected fraud,1,subscription,2026-01-22T05:32:00Z,false,0,development,20260822
+pay_000206,cus_00183,4999,INR,card,authentication_failure,Authentication failure,1,business_customer,2026-03-17T21:51:00Z,false,0,development,20260822
+pay_000207,cus_00089,1499,INR,upi,authentication_failure,Authentication failure,1,returning_customer,2026-05-21T12:20:00Z,true,1499,development,20260822
+pay_000208,cus_00323,50000,INR,card,insufficient_funds,Insufficient funds,3,new_customer,2026-03-29T20:57:00Z,false,0,development,20260822
+pay_000209,cus_00369,799,INR,upi,bank_timeout,Bank timeout,1,returning_customer,2026-02-04T06:00:00Z,true,799,development,20260822
+pay_000210,cus_00132,1999,INR,wallet,invalid_account,Invalid account,2,business_customer,2026-03-18T09:02:00Z,false,0,development,20260822
+pay_000211,cus_00203,2999,INR,wallet,suspected_fraud,Suspected fraud,1,subscription,2026-03-14T10:35:00Z,false,0,development,20260822
+pay_000212,cus_00095,50000,INR,upi,expired_card,Expired card,3,business_customer,2026-05-12T21:14:00Z,true,50000,development,20260822
+pay_000213,cus_00192,12000,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-02-02T21:22:00Z,true,12000,development,20260822
+pay_000214,cus_00310,499,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-04-28T07:58:00Z,false,0,development,20260822
+pay_000215,cus_00153,4999,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-01-29T03:53:00Z,true,4999,development,20260822
+pay_000216,cus_00016,50000,INR,upi,bank_timeout,Bank timeout,1,returning_customer,2026-05-28T12:50:00Z,true,50000,development,20260822
+pay_000217,cus_00365,2999,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-04-06T04:21:00Z,true,2999,development,20260822
+pay_000218,cus_00087,7500,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-02-14T05:26:00Z,true,7500,development,20260822
+pay_000219,cus_00296,25000,INR,upi,technical_error,Unknown technical error,1,subscription,2026-02-27T01:27:00Z,true,25000,development,20260822
+pay_000220,cus_00060,1499,INR,card,bank_timeout,Bank timeout,1,returning_customer,2026-02-17T00:53:00Z,false,0,development,20260822
+pay_000221,cus_00059,25000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-02-14T23:21:00Z,false,0,development,20260822
+pay_000222,cus_00300,2999,INR,card,bank_timeout,Bank timeout,2,returning_customer,2026-02-27T09:36:00Z,false,0,development,20260822
+pay_000223,cus_00128,12000,INR,wallet,authentication_failure,Authentication failure,1,returning_customer,2026-06-26T02:54:00Z,true,12000,development,20260822
+pay_000224,cus_00105,799,INR,netbanking,expired_card,Expired card,2,returning_customer,2026-06-25T20:29:00Z,false,0,development,20260822
+pay_000225,cus_00018,1999,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-04T14:39:00Z,true,1999,development,20260822
+pay_000226,cus_00223,1999,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-02-06T11:27:00Z,true,1999,development,20260822
+pay_000227,cus_00259,25000,INR,card,technical_error,Unknown technical error,1,subscription,2026-01-24T05:10:00Z,true,25000,development,20260822
+pay_000228,cus_00093,50000,INR,upi,authentication_failure,Authentication failure,1,returning_customer,2026-03-07T03:32:00Z,false,0,development,20260822
+pay_000229,cus_00103,999,INR,upi,suspected_fraud,Suspected fraud,1,returning_customer,2026-02-14T14:24:00Z,false,0,development,20260822
+pay_000230,cus_00194,1999,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-04-26T23:51:00Z,false,0,development,20260822
+pay_000231,cus_00028,1499,INR,card,expired_card,Expired card,1,subscription,2026-03-29T08:35:00Z,true,1499,development,20260822
+pay_000232,cus_00225,499,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-04-19T01:52:00Z,false,0,development,20260822
+pay_000233,cus_00291,12000,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-02-11T09:33:00Z,true,12000,development,20260822
+pay_000234,cus_00335,1999,INR,upi,insufficient_funds,Insufficient funds,2,returning_customer,2026-06-21T13:41:00Z,false,0,development,20260822
+pay_000235,cus_00051,25000,INR,wallet,expired_card,Expired card,1,subscription,2026-05-08T17:12:00Z,true,25000,development,20260822
+pay_000236,cus_00334,1499,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-05-22T02:55:00Z,true,1499,development,20260822
+pay_000237,cus_00340,799,INR,netbanking,authentication_failure,Authentication failure,2,subscription,2026-03-02T07:41:00Z,false,0,development,20260822
+pay_000238,cus_00180,799,INR,netbanking,technical_error,Unknown technical error,1,business_customer,2026-06-20T15:38:00Z,true,799,development,20260822
+pay_000239,cus_00110,499,INR,upi,invalid_account,Invalid account,1,subscription,2026-03-16T04:35:00Z,false,0,development,20260822
+pay_000240,cus_00241,1999,INR,wallet,expired_card,Expired card,1,new_customer,2026-03-08T12:02:00Z,true,1999,development,20260822
+pay_000241,cus_00157,799,INR,upi,authentication_failure,Authentication failure,1,subscription,2026-03-14T03:10:00Z,true,799,development,20260822
+pay_000242,cus_00172,4999,INR,netbanking,bank_timeout,Bank timeout,3,subscription,2026-04-22T13:00:00Z,true,4999,development,20260822
+pay_000243,cus_00023,2999,INR,wallet,insufficient_funds,Insufficient funds,4,business_customer,2026-04-15T19:40:00Z,false,0,development,20260822
+pay_000244,cus_00082,1999,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-01-08T22:33:00Z,false,0,development,20260822
+pay_000245,cus_00185,1999,INR,netbanking,insufficient_funds,Insufficient funds,3,subscription,2026-03-05T13:53:00Z,false,0,development,20260822
+pay_000246,cus_00146,2999,INR,netbanking,authentication_failure,Authentication failure,1,subscription,2026-01-09T23:09:00Z,true,2999,development,20260822
+pay_000247,cus_00237,1999,INR,card,insufficient_funds,Insufficient funds,2,returning_customer,2026-06-24T22:46:00Z,false,0,development,20260822
+pay_000248,cus_00126,12000,INR,netbanking,bank_timeout,Bank timeout,1,new_customer,2026-01-16T14:11:00Z,true,12000,development,20260822
+pay_000249,cus_00229,1499,INR,upi,technical_error,Unknown technical error,1,subscription,2026-05-17T01:28:00Z,true,1499,development,20260822
+pay_000250,cus_00350,25000,INR,upi,expired_card,Expired card,2,returning_customer,2026-01-25T20:43:00Z,true,25000,development,20260822
+pay_000251,cus_00396,7500,INR,card,invalid_account,Invalid account,2,new_customer,2026-04-17T10:25:00Z,false,0,development,20260822
+pay_000252,cus_00191,7500,INR,wallet,authentication_failure,Authentication failure,1,returning_customer,2026-02-17T17:06:00Z,false,0,development,20260822
+pay_000253,cus_00019,50000,INR,netbanking,technical_error,Unknown technical error,1,returning_customer,2026-02-02T20:19:00Z,true,50000,development,20260822
+pay_000254,cus_00243,2999,INR,card,insufficient_funds,Insufficient funds,3,business_customer,2026-06-08T04:09:00Z,false,0,development,20260822
+pay_000255,cus_00123,499,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-01-08T06:41:00Z,true,499,development,20260822
+pay_000256,cus_00337,2999,INR,wallet,expired_card,Expired card,2,business_customer,2026-05-04T06:02:00Z,true,2999,development,20260822
+pay_000257,cus_00403,1499,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-04-21T21:50:00Z,false,0,development,20260822
+pay_000258,cus_00147,799,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-03-31T03:24:00Z,false,0,development,20260822
+pay_000259,cus_00403,4999,INR,wallet,authentication_failure,Authentication failure,1,new_customer,2026-04-29T09:29:00Z,true,4999,development,20260822
+pay_000260,cus_00211,4999,INR,card,technical_error,Unknown technical error,1,subscription,2026-02-23T12:13:00Z,false,0,development,20260822
+pay_000261,cus_00195,12000,INR,upi,expired_card,Expired card,2,business_customer,2026-05-03T07:13:00Z,true,12000,development,20260822
+pay_000262,cus_00069,7500,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-05-26T20:47:00Z,true,7500,development,20260822
+pay_000263,cus_00092,999,INR,upi,expired_card,Expired card,1,returning_customer,2026-06-27T06:07:00Z,true,999,development,20260822
+pay_000264,cus_00021,1499,INR,netbanking,suspected_fraud,Suspected fraud,1,new_customer,2026-02-07T07:00:00Z,false,0,development,20260822
+pay_000265,cus_00319,799,INR,wallet,authentication_failure,Authentication failure,1,new_customer,2026-02-18T03:44:00Z,false,0,development,20260822
+pay_000266,cus_00344,25000,INR,netbanking,expired_card,Expired card,2,subscription,2026-02-24T13:37:00Z,false,0,development,20260822
+pay_000267,cus_00312,1999,INR,wallet,invalid_account,Invalid account,1,returning_customer,2026-03-19T02:25:00Z,false,0,development,20260822
+pay_000268,cus_00169,799,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-04-23T02:49:00Z,false,0,development,20260822
+pay_000269,cus_00110,2999,INR,upi,authentication_failure,Authentication failure,2,business_customer,2026-05-22T13:29:00Z,false,0,development,20260822
+pay_000270,cus_00075,12000,INR,wallet,technical_error,Unknown technical error,3,new_customer,2026-02-18T18:51:00Z,true,12000,development,20260822
+pay_000271,cus_00118,1999,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-05-06T17:52:00Z,true,1999,development,20260822
+pay_000272,cus_00099,7500,INR,wallet,daily_limit_exceeded,Daily limit exceeded,2,business_customer,2026-01-18T16:07:00Z,false,0,development,20260822
+pay_000273,cus_00057,25000,INR,upi,suspected_fraud,Suspected fraud,1,new_customer,2026-03-23T09:34:00Z,false,0,development,20260822
+pay_000274,cus_00256,7500,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-05T11:06:00Z,false,0,development,20260822
+pay_000275,cus_00006,7500,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-05-06T07:48:00Z,true,7500,development,20260822
+pay_000276,cus_00266,12000,INR,card,bank_timeout,Bank timeout,3,new_customer,2026-06-09T18:10:00Z,false,0,development,20260822
+pay_000277,cus_00238,1999,INR,wallet,insufficient_funds,Insufficient funds,2,subscription,2026-06-29T20:19:00Z,false,0,development,20260822
+pay_000278,cus_00353,999,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-03-11T08:46:00Z,false,0,development,20260822
+pay_000279,cus_00201,2999,INR,wallet,authentication_failure,Authentication failure,2,subscription,2026-03-20T20:16:00Z,false,0,development,20260822
+pay_000280,cus_00014,1499,INR,upi,expired_card,Expired card,2,subscription,2026-02-11T05:54:00Z,false,0,development,20260822
+pay_000281,cus_00397,12000,INR,upi,expired_card,Expired card,1,business_customer,2026-06-23T00:16:00Z,true,12000,development,20260822
+pay_000282,cus_00345,799,INR,wallet,insufficient_funds,Insufficient funds,4,subscription,2026-03-20T22:30:00Z,false,0,development,20260822
+pay_000283,cus_00311,1999,INR,card,expired_card,Expired card,1,subscription,2026-02-08T20:00:00Z,true,1999,development,20260822
+pay_000284,cus_00293,7500,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-02-08T12:39:00Z,false,0,development,20260822
+pay_000285,cus_00323,799,INR,upi,daily_limit_exceeded,Daily limit exceeded,3,business_customer,2026-01-12T04:09:00Z,false,0,development,20260822
+pay_000286,cus_00156,12000,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-03-22T05:49:00Z,false,0,development,20260822
+pay_000287,cus_00276,799,INR,wallet,insufficient_funds,Insufficient funds,4,business_customer,2026-03-27T05:36:00Z,false,0,development,20260822
+pay_000288,cus_00261,50000,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-03-06T20:13:00Z,false,0,development,20260822
+pay_000289,cus_00212,1499,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-01-08T15:10:00Z,true,1499,development,20260822
+pay_000290,cus_00009,1999,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-03-28T13:56:00Z,false,0,development,20260822
+pay_000291,cus_00079,25000,INR,upi,authentication_failure,Authentication failure,1,subscription,2026-04-02T10:22:00Z,false,0,development,20260822
+pay_000292,cus_00419,12000,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-02-19T07:30:00Z,true,12000,development,20260822
+pay_000293,cus_00194,999,INR,netbanking,technical_error,Unknown technical error,1,returning_customer,2026-02-13T19:52:00Z,false,0,development,20260822
+pay_000294,cus_00148,1999,INR,upi,insufficient_funds,Insufficient funds,3,subscription,2026-05-27T01:55:00Z,false,0,development,20260822
+pay_000295,cus_00323,25000,INR,upi,technical_error,Unknown technical error,2,subscription,2026-01-29T20:18:00Z,true,25000,development,20260822
+pay_000296,cus_00265,50000,INR,wallet,bank_timeout,Bank timeout,2,subscription,2026-04-21T10:35:00Z,false,0,development,20260822
+pay_000297,cus_00013,2999,INR,upi,daily_limit_exceeded,Daily limit exceeded,3,new_customer,2026-03-22T03:18:00Z,false,0,development,20260822
+pay_000298,cus_00038,2999,INR,upi,bank_timeout,Bank timeout,2,subscription,2026-04-07T04:35:00Z,true,2999,development,20260822
+pay_000299,cus_00285,999,INR,upi,insufficient_funds,Insufficient funds,4,business_customer,2026-04-08T03:56:00Z,false,0,development,20260822
+pay_000300,cus_00315,799,INR,netbanking,expired_card,Expired card,1,business_customer,2026-01-07T19:26:00Z,true,799,development,20260822
+pay_000301,cus_00247,50000,INR,upi,invalid_account,Invalid account,2,business_customer,2026-02-08T17:00:00Z,false,0,development,20260822
+pay_000302,cus_00076,50000,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-01-20T23:16:00Z,false,0,development,20260822
+pay_000303,cus_00215,50000,INR,wallet,invalid_account,Invalid account,3,subscription,2026-01-11T14:35:00Z,false,0,development,20260822
+pay_000304,cus_00393,1499,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-04-22T04:51:00Z,true,1499,development,20260822
+pay_000305,cus_00126,1999,INR,netbanking,expired_card,Expired card,1,returning_customer,2026-02-15T11:54:00Z,true,1999,development,20260822
+pay_000306,cus_00328,999,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-02-03T14:06:00Z,true,999,development,20260822
+pay_000307,cus_00183,2999,INR,card,authentication_failure,Authentication failure,2,new_customer,2026-01-08T00:20:00Z,true,2999,development,20260822
+pay_000308,cus_00037,799,INR,upi,technical_error,Unknown technical error,1,subscription,2026-05-31T15:23:00Z,true,799,development,20260822
+pay_000309,cus_00113,4999,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-04-21T20:42:00Z,true,4999,development,20260822
+pay_000310,cus_00078,12000,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-03-10T14:27:00Z,false,0,development,20260822
+pay_000311,cus_00384,499,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-01-25T16:18:00Z,true,499,development,20260822
+pay_000312,cus_00005,50000,INR,netbanking,bank_timeout,Bank timeout,4,subscription,2026-01-22T19:42:00Z,false,0,development,20260822
+pay_000313,cus_00022,2999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-03-20T16:16:00Z,false,0,development,20260822
+pay_000314,cus_00175,2999,INR,card,expired_card,Expired card,3,business_customer,2026-02-19T16:32:00Z,true,2999,development,20260822
+pay_000315,cus_00147,25000,INR,upi,insufficient_funds,Insufficient funds,2,subscription,2026-06-08T15:24:00Z,false,0,development,20260822
+pay_000316,cus_00243,4999,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-05-17T04:05:00Z,false,0,development,20260822
+pay_000317,cus_00006,1499,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-05-25T13:12:00Z,true,1499,development,20260822
+pay_000318,cus_00352,2999,INR,upi,bank_timeout,Bank timeout,1,returning_customer,2026-03-24T15:07:00Z,true,2999,development,20260822
+pay_000319,cus_00105,799,INR,netbanking,suspected_fraud,Suspected fraud,1,subscription,2026-06-23T01:38:00Z,false,0,development,20260822
+pay_000320,cus_00091,799,INR,card,authentication_failure,Authentication failure,1,business_customer,2026-05-19T06:32:00Z,true,799,development,20260822
+pay_000321,cus_00125,7500,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-01-07T22:32:00Z,false,0,development,20260822
+pay_000322,cus_00362,7500,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-01-04T01:32:00Z,true,7500,development,20260822
+pay_000323,cus_00182,25000,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-06-29T18:39:00Z,false,0,development,20260822
+pay_000324,cus_00101,499,INR,upi,daily_limit_exceeded,Daily limit exceeded,2,subscription,2026-03-07T11:41:00Z,false,0,development,20260822
+pay_000325,cus_00092,7500,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,3,new_customer,2026-02-08T20:11:00Z,false,0,development,20260822
+pay_000326,cus_00198,25000,INR,card,invalid_account,Invalid account,2,returning_customer,2026-04-11T09:31:00Z,false,0,development,20260822
+pay_000327,cus_00383,25000,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-06-14T14:16:00Z,false,0,development,20260822
+pay_000328,cus_00057,999,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,new_customer,2026-06-29T02:12:00Z,false,0,development,20260822
+pay_000329,cus_00328,1499,INR,wallet,technical_error,Unknown technical error,1,returning_customer,2026-01-19T02:04:00Z,true,1499,development,20260822
+pay_000330,cus_00365,12000,INR,upi,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-02-26T08:14:00Z,false,0,development,20260822
+pay_000331,cus_00038,799,INR,upi,insufficient_funds,Insufficient funds,4,subscription,2026-02-01T15:55:00Z,false,0,development,20260822
+pay_000332,cus_00121,1499,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-02-01T02:30:00Z,false,0,development,20260822
+pay_000333,cus_00224,25000,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-04-14T09:53:00Z,true,25000,development,20260822
+pay_000334,cus_00109,4999,INR,card,bank_timeout,Bank timeout,2,business_customer,2026-02-01T11:47:00Z,true,4999,development,20260822
+pay_000335,cus_00211,1499,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-05-27T08:21:00Z,true,1499,development,20260822
+pay_000336,cus_00226,1999,INR,card,expired_card,Expired card,2,subscription,2026-06-08T05:41:00Z,true,1999,development,20260822
+pay_000337,cus_00116,25000,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-02-19T22:32:00Z,true,25000,development,20260822
+pay_000338,cus_00253,1499,INR,card,bank_timeout,Bank timeout,1,subscription,2026-04-25T10:47:00Z,true,1499,development,20260822
+pay_000339,cus_00229,799,INR,netbanking,insufficient_funds,Insufficient funds,2,subscription,2026-01-27T18:17:00Z,false,0,development,20260822
+pay_000340,cus_00375,25000,INR,upi,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-04-10T17:07:00Z,false,0,development,20260822
+pay_000341,cus_00014,999,INR,netbanking,expired_card,Expired card,1,new_customer,2026-06-23T23:24:00Z,true,999,development,20260822
+pay_000342,cus_00142,1999,INR,upi,technical_error,Unknown technical error,3,returning_customer,2026-05-29T23:46:00Z,false,0,development,20260822
+pay_000343,cus_00197,12000,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-04-09T21:11:00Z,false,0,development,20260822
+pay_000344,cus_00247,7500,INR,upi,invalid_account,Invalid account,4,subscription,2026-06-20T11:23:00Z,false,0,development,20260822
+pay_000345,cus_00083,499,INR,card,technical_error,Unknown technical error,3,returning_customer,2026-06-17T20:53:00Z,true,499,development,20260822
+pay_000346,cus_00214,12000,INR,upi,technical_error,Unknown technical error,3,business_customer,2026-03-23T20:51:00Z,false,0,development,20260822
+pay_000347,cus_00283,1999,INR,upi,insufficient_funds,Insufficient funds,2,subscription,2026-02-20T08:51:00Z,false,0,development,20260822
+pay_000348,cus_00078,4999,INR,wallet,bank_timeout,Bank timeout,2,new_customer,2026-02-21T04:01:00Z,true,4999,development,20260822
+pay_000349,cus_00159,2999,INR,card,invalid_account,Invalid account,2,new_customer,2026-05-01T01:07:00Z,false,0,development,20260822
+pay_000350,cus_00087,2999,INR,upi,authentication_failure,Authentication failure,1,subscription,2026-02-10T20:37:00Z,false,0,development,20260822
+pay_000351,cus_00030,2999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-06-08T04:47:00Z,false,0,development,20260822
+pay_000352,cus_00013,4999,INR,netbanking,expired_card,Expired card,1,returning_customer,2026-04-15T17:24:00Z,true,4999,development,20260822
+pay_000353,cus_00196,499,INR,netbanking,expired_card,Expired card,1,subscription,2026-04-11T19:39:00Z,false,0,development,20260822
+pay_000354,cus_00201,2999,INR,wallet,invalid_account,Invalid account,1,business_customer,2026-01-03T23:10:00Z,true,2999,development,20260822
+pay_000355,cus_00022,1999,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-04-02T08:01:00Z,true,1999,development,20260822
+pay_000356,cus_00036,25000,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-05-25T04:10:00Z,false,0,development,20260822
+pay_000357,cus_00266,799,INR,upi,insufficient_funds,Insufficient funds,3,new_customer,2026-06-28T07:18:00Z,true,799,development,20260822
+pay_000358,cus_00409,1499,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-05-22T04:53:00Z,true,1499,development,20260822
+pay_000359,cus_00190,25000,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-03-16T19:21:00Z,true,25000,development,20260822
+pay_000360,cus_00350,12000,INR,netbanking,bank_timeout,Bank timeout,1,new_customer,2026-04-29T00:28:00Z,true,12000,development,20260822
+pay_000361,cus_00052,4999,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-03-02T07:53:00Z,false,0,development,20260822
+pay_000362,cus_00083,799,INR,card,bank_timeout,Bank timeout,1,returning_customer,2026-06-01T15:56:00Z,true,799,development,20260822
+pay_000363,cus_00125,799,INR,upi,expired_card,Expired card,1,business_customer,2026-03-31T15:06:00Z,false,0,development,20260822
+pay_000364,cus_00086,4999,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-06-28T03:51:00Z,true,4999,development,20260822
+pay_000365,cus_00118,2999,INR,card,bank_timeout,Bank timeout,1,subscription,2026-06-26T02:55:00Z,true,2999,development,20260822
+pay_000366,cus_00363,999,INR,wallet,bank_timeout,Bank timeout,3,business_customer,2026-05-23T06:16:00Z,true,999,development,20260822
+pay_000367,cus_00189,999,INR,wallet,technical_error,Unknown technical error,2,returning_customer,2026-03-29T16:20:00Z,true,999,development,20260822
+pay_000368,cus_00173,1499,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-06-21T17:05:00Z,true,1499,development,20260822
+pay_000369,cus_00217,1499,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-01-09T22:12:00Z,true,1499,development,20260822
+pay_000370,cus_00354,499,INR,upi,technical_error,Unknown technical error,4,subscription,2026-01-14T19:08:00Z,false,0,development,20260822
+pay_000371,cus_00194,499,INR,upi,technical_error,Unknown technical error,2,business_customer,2026-04-11T19:09:00Z,true,499,development,20260822
+pay_000372,cus_00011,7500,INR,card,bank_timeout,Bank timeout,1,returning_customer,2026-01-05T23:49:00Z,false,0,development,20260822
+pay_000373,cus_00258,2999,INR,netbanking,insufficient_funds,Insufficient funds,4,business_customer,2026-02-09T12:42:00Z,false,0,development,20260822
+pay_000374,cus_00255,4999,INR,wallet,technical_error,Unknown technical error,2,returning_customer,2026-05-28T10:47:00Z,false,0,development,20260822
+pay_000375,cus_00340,1499,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,business_customer,2026-01-12T01:42:00Z,false,0,development,20260822
+pay_000376,cus_00398,7500,INR,netbanking,invalid_account,Invalid account,1,subscription,2026-06-18T16:06:00Z,false,0,development,20260822
+pay_000377,cus_00234,999,INR,netbanking,authentication_failure,Authentication failure,4,returning_customer,2026-03-18T18:50:00Z,false,0,development,20260822
+pay_000378,cus_00386,1499,INR,netbanking,expired_card,Expired card,1,new_customer,2026-06-08T14:53:00Z,true,1499,development,20260822
+pay_000379,cus_00264,4999,INR,netbanking,technical_error,Unknown technical error,1,returning_customer,2026-03-03T16:03:00Z,true,4999,development,20260822
+pay_000380,cus_00292,50000,INR,card,technical_error,Unknown technical error,1,new_customer,2026-03-25T22:42:00Z,true,50000,development,20260822
+pay_000381,cus_00083,25000,INR,card,suspected_fraud,Suspected fraud,1,returning_customer,2026-04-02T04:32:00Z,false,0,development,20260822
+pay_000382,cus_00017,12000,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-05-28T09:50:00Z,false,0,development,20260822
+pay_000383,cus_00040,7500,INR,card,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-05-21T18:23:00Z,true,7500,development,20260822
+pay_000384,cus_00184,999,INR,netbanking,bank_timeout,Bank timeout,2,business_customer,2026-05-06T20:43:00Z,true,999,development,20260822
+pay_000385,cus_00347,4999,INR,card,daily_limit_exceeded,Daily limit exceeded,3,new_customer,2026-03-28T20:35:00Z,false,0,development,20260822
+pay_000386,cus_00408,4999,INR,netbanking,expired_card,Expired card,2,business_customer,2026-05-07T09:13:00Z,false,0,development,20260822
+pay_000387,cus_00364,4999,INR,wallet,technical_error,Unknown technical error,3,business_customer,2026-05-17T03:09:00Z,false,0,development,20260822
+pay_000388,cus_00062,799,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-03-03T13:05:00Z,true,799,development,20260822
+pay_000389,cus_00360,2999,INR,upi,invalid_account,Invalid account,2,business_customer,2026-03-29T23:19:00Z,false,0,development,20260822
+pay_000390,cus_00330,499,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,returning_customer,2026-03-08T23:45:00Z,false,0,development,20260822
+pay_000391,cus_00104,7500,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-04-17T01:03:00Z,true,7500,development,20260822
+pay_000392,cus_00374,7500,INR,upi,expired_card,Expired card,1,new_customer,2026-01-04T08:39:00Z,true,7500,development,20260822
+pay_000393,cus_00175,50000,INR,card,technical_error,Unknown technical error,1,returning_customer,2026-04-23T01:30:00Z,false,0,development,20260822
+pay_000394,cus_00098,4999,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,3,business_customer,2026-05-23T19:58:00Z,false,0,development,20260822
+pay_000395,cus_00148,50000,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-04-08T19:50:00Z,true,50000,development,20260822
+pay_000396,cus_00293,2999,INR,wallet,technical_error,Unknown technical error,2,subscription,2026-06-15T23:12:00Z,false,0,development,20260822
+pay_000397,cus_00141,7500,INR,netbanking,invalid_account,Invalid account,2,new_customer,2026-05-11T15:12:00Z,false,0,development,20260822
+pay_000398,cus_00033,4999,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-05-29T17:36:00Z,true,4999,development,20260822
+pay_000399,cus_00178,2999,INR,upi,authentication_failure,Authentication failure,3,subscription,2026-01-17T11:10:00Z,false,0,development,20260822
+pay_000400,cus_00111,7500,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-01-12T07:31:00Z,true,7500,development,20260822
+pay_000401,cus_00098,50000,INR,wallet,invalid_account,Invalid account,1,new_customer,2026-02-23T19:50:00Z,false,0,development,20260822
+pay_000402,cus_00026,2999,INR,upi,technical_error,Unknown technical error,2,subscription,2026-01-27T23:14:00Z,false,0,development,20260822
+pay_000403,cus_00117,999,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-05-06T05:22:00Z,false,0,development,20260822
+pay_000404,cus_00127,25000,INR,wallet,technical_error,Unknown technical error,1,returning_customer,2026-06-09T18:09:00Z,false,0,development,20260822
+pay_000405,cus_00303,7500,INR,netbanking,expired_card,Expired card,1,subscription,2026-01-14T11:26:00Z,true,7500,development,20260822
+pay_000406,cus_00042,12000,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-03-02T17:10:00Z,true,12000,development,20260822
+pay_000407,cus_00363,12000,INR,upi,expired_card,Expired card,2,subscription,2026-04-28T23:36:00Z,true,12000,development,20260822
+pay_000408,cus_00376,2999,INR,upi,expired_card,Expired card,3,business_customer,2026-03-21T08:41:00Z,false,0,development,20260822
+pay_000409,cus_00057,12000,INR,upi,technical_error,Unknown technical error,1,business_customer,2026-01-21T23:07:00Z,true,12000,development,20260822
+pay_000410,cus_00338,2999,INR,netbanking,authentication_failure,Authentication failure,1,subscription,2026-04-28T09:31:00Z,false,0,development,20260822
+pay_000411,cus_00114,25000,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-05-20T19:48:00Z,false,0,development,20260822
+pay_000412,cus_00067,2999,INR,netbanking,bank_timeout,Bank timeout,3,business_customer,2026-05-19T04:46:00Z,true,2999,development,20260822
+pay_000413,cus_00092,7500,INR,card,insufficient_funds,Insufficient funds,2,new_customer,2026-06-16T14:27:00Z,false,0,development,20260822
+pay_000414,cus_00323,1999,INR,upi,bank_timeout,Bank timeout,2,returning_customer,2026-05-08T12:31:00Z,false,0,development,20260822
+pay_000415,cus_00413,12000,INR,card,authentication_failure,Authentication failure,3,business_customer,2026-04-20T01:59:00Z,true,12000,development,20260822
+pay_000416,cus_00237,499,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-03-13T08:29:00Z,false,0,development,20260822
+pay_000417,cus_00344,4999,INR,upi,invalid_account,Invalid account,3,returning_customer,2026-04-26T01:40:00Z,false,0,development,20260822
+pay_000418,cus_00182,2999,INR,card,technical_error,Unknown technical error,1,new_customer,2026-05-06T10:59:00Z,false,0,development,20260822
+pay_000419,cus_00186,999,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-02-20T08:24:00Z,true,999,development,20260822
+pay_000420,cus_00330,4999,INR,upi,technical_error,Unknown technical error,2,subscription,2026-05-21T12:39:00Z,true,4999,development,20260822
+pay_000421,cus_00173,1999,INR,wallet,invalid_account,Invalid account,1,new_customer,2026-04-28T22:49:00Z,false,0,development,20260822
+pay_000422,cus_00197,2999,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-02-24T11:28:00Z,true,2999,development,20260822
+pay_000423,cus_00080,799,INR,upi,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-03-08T12:32:00Z,false,0,development,20260822
+pay_000424,cus_00221,7500,INR,wallet,technical_error,Unknown technical error,1,returning_customer,2026-06-27T00:44:00Z,true,7500,development,20260822
+pay_000425,cus_00420,50000,INR,upi,insufficient_funds,Insufficient funds,3,returning_customer,2026-06-27T22:41:00Z,true,50000,development,20260822
+pay_000426,cus_00090,499,INR,card,bank_timeout,Bank timeout,1,subscription,2026-05-30T21:47:00Z,true,499,development,20260822
+pay_000427,cus_00257,499,INR,card,technical_error,Unknown technical error,1,subscription,2026-05-28T06:48:00Z,false,0,development,20260822
+pay_000428,cus_00205,25000,INR,card,technical_error,Unknown technical error,2,returning_customer,2026-03-07T20:52:00Z,true,25000,development,20260822
+pay_000429,cus_00400,999,INR,upi,technical_error,Unknown technical error,3,returning_customer,2026-05-06T22:48:00Z,false,0,development,20260822
+pay_000430,cus_00415,12000,INR,card,technical_error,Unknown technical error,2,business_customer,2026-02-08T12:02:00Z,false,0,development,20260822
+pay_000431,cus_00231,1999,INR,netbanking,insufficient_funds,Insufficient funds,1,subscription,2026-06-25T12:18:00Z,false,0,development,20260822
+pay_000432,cus_00007,7500,INR,upi,bank_timeout,Bank timeout,1,returning_customer,2026-06-18T02:29:00Z,false,0,development,20260822
+pay_000433,cus_00128,499,INR,wallet,bank_timeout,Bank timeout,3,business_customer,2026-02-03T19:44:00Z,false,0,development,20260822
+pay_000434,cus_00103,999,INR,netbanking,insufficient_funds,Insufficient funds,1,subscription,2026-04-09T14:23:00Z,false,0,development,20260822
+pay_000435,cus_00218,1499,INR,upi,insufficient_funds,Insufficient funds,4,business_customer,2026-02-22T03:41:00Z,false,0,development,20260822
+pay_000436,cus_00095,799,INR,netbanking,expired_card,Expired card,1,business_customer,2026-06-17T19:33:00Z,true,799,development,20260822
+pay_000437,cus_00259,7500,INR,wallet,technical_error,Unknown technical error,2,subscription,2026-01-17T00:38:00Z,false,0,development,20260822
+pay_000438,cus_00292,50000,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-04-20T00:04:00Z,true,50000,development,20260822
+pay_000439,cus_00341,1499,INR,card,bank_timeout,Bank timeout,1,subscription,2026-02-06T18:51:00Z,true,1499,development,20260822
+pay_000440,cus_00348,999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-01-06T04:56:00Z,false,0,development,20260822
+pay_000441,cus_00143,4999,INR,netbanking,bank_timeout,Bank timeout,3,subscription,2026-01-11T17:04:00Z,false,0,development,20260822
+pay_000442,cus_00349,999,INR,wallet,technical_error,Unknown technical error,2,subscription,2026-03-22T06:19:00Z,true,999,development,20260822
+pay_000443,cus_00099,12000,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-05-08T14:44:00Z,true,12000,development,20260822
+pay_000444,cus_00200,999,INR,upi,authentication_failure,Authentication failure,2,subscription,2026-04-24T15:16:00Z,true,999,development,20260822
+pay_000445,cus_00075,799,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-17T14:52:00Z,false,0,development,20260822
+pay_000446,cus_00147,4999,INR,netbanking,technical_error,Unknown technical error,3,new_customer,2026-03-04T17:44:00Z,false,0,development,20260822
+pay_000447,cus_00184,799,INR,netbanking,insufficient_funds,Insufficient funds,1,subscription,2026-01-26T17:32:00Z,true,799,development,20260822
+pay_000448,cus_00214,7500,INR,card,technical_error,Unknown technical error,3,subscription,2026-01-28T02:32:00Z,true,7500,development,20260822
+pay_000449,cus_00215,2999,INR,card,authentication_failure,Authentication failure,2,subscription,2026-02-27T08:49:00Z,false,0,development,20260822
+pay_000450,cus_00154,7500,INR,upi,technical_error,Unknown technical error,1,subscription,2026-01-22T02:13:00Z,true,7500,development,20260822
+pay_000451,cus_00065,50000,INR,upi,authentication_failure,Authentication failure,2,new_customer,2026-02-17T04:41:00Z,false,0,development,20260822
+pay_000452,cus_00405,50000,INR,wallet,insufficient_funds,Insufficient funds,3,business_customer,2026-05-16T19:22:00Z,true,50000,development,20260822
+pay_000453,cus_00026,799,INR,card,technical_error,Unknown technical error,1,returning_customer,2026-04-13T18:02:00Z,false,0,development,20260822
+pay_000454,cus_00215,4999,INR,netbanking,expired_card,Expired card,1,returning_customer,2026-04-29T17:10:00Z,true,4999,development,20260822
+pay_000455,cus_00311,499,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-02-08T20:11:00Z,false,0,development,20260822
+pay_000456,cus_00077,999,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-06-13T04:16:00Z,true,999,development,20260822
+pay_000457,cus_00295,999,INR,upi,expired_card,Expired card,1,new_customer,2026-01-30T19:29:00Z,true,999,development,20260822
+pay_000458,cus_00011,999,INR,upi,expired_card,Expired card,3,business_customer,2026-06-29T08:08:00Z,true,999,development,20260822
+pay_000459,cus_00030,999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-04-23T05:28:00Z,true,999,development,20260822
+pay_000460,cus_00168,25000,INR,upi,bank_timeout,Bank timeout,2,new_customer,2026-06-18T19:56:00Z,false,0,development,20260822
+pay_000461,cus_00122,1999,INR,upi,invalid_account,Invalid account,2,business_customer,2026-02-21T19:01:00Z,false,0,development,20260822
+pay_000462,cus_00109,12000,INR,upi,insufficient_funds,Insufficient funds,2,subscription,2026-05-22T21:39:00Z,false,0,development,20260822
+pay_000463,cus_00324,799,INR,card,technical_error,Unknown technical error,2,returning_customer,2026-02-21T09:51:00Z,true,799,development,20260822
+pay_000464,cus_00161,4999,INR,wallet,bank_timeout,Bank timeout,3,business_customer,2026-03-10T16:17:00Z,false,0,development,20260822
+pay_000465,cus_00087,12000,INR,wallet,expired_card,Expired card,4,returning_customer,2026-02-17T10:56:00Z,false,0,development,20260822
+pay_000466,cus_00358,1499,INR,netbanking,expired_card,Expired card,1,business_customer,2026-03-13T13:56:00Z,false,0,development,20260822
+pay_000467,cus_00198,2999,INR,upi,bank_timeout,Bank timeout,4,new_customer,2026-06-07T15:19:00Z,false,0,development,20260822
+pay_000468,cus_00272,25000,INR,card,insufficient_funds,Insufficient funds,2,new_customer,2026-03-26T04:07:00Z,false,0,development,20260822
+pay_000469,cus_00049,2999,INR,card,invalid_account,Invalid account,1,business_customer,2026-03-08T03:50:00Z,false,0,development,20260822
+pay_000470,cus_00195,12000,INR,upi,technical_error,Unknown technical error,1,business_customer,2026-04-18T08:20:00Z,true,12000,development,20260822
+pay_000471,cus_00306,7500,INR,upi,suspected_fraud,Suspected fraud,1,new_customer,2026-04-02T11:56:00Z,false,0,development,20260822
+pay_000472,cus_00365,1499,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-05-14T04:54:00Z,true,1499,development,20260822
+pay_000473,cus_00245,799,INR,wallet,expired_card,Expired card,1,new_customer,2026-04-23T12:40:00Z,true,799,development,20260822
+pay_000474,cus_00017,4999,INR,upi,expired_card,Expired card,1,business_customer,2026-06-22T15:33:00Z,true,4999,development,20260822
+pay_000475,cus_00381,7500,INR,netbanking,bank_timeout,Bank timeout,2,subscription,2026-04-22T03:48:00Z,true,7500,development,20260822
+pay_000476,cus_00363,2999,INR,upi,expired_card,Expired card,2,business_customer,2026-05-01T13:06:00Z,true,2999,development,20260822
+pay_000477,cus_00129,999,INR,card,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-01-20T12:21:00Z,true,999,development,20260822
+pay_000478,cus_00207,4999,INR,upi,invalid_account,Invalid account,2,subscription,2026-02-22T10:25:00Z,false,0,development,20260822
+pay_000479,cus_00324,1499,INR,wallet,invalid_account,Invalid account,1,business_customer,2026-05-15T08:39:00Z,true,1499,development,20260822
+pay_000480,cus_00350,12000,INR,wallet,suspected_fraud,Suspected fraud,1,subscription,2026-04-27T16:28:00Z,false,0,development,20260822
+pay_000481,cus_00078,2999,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-06-17T13:33:00Z,true,2999,development,20260822
+pay_000482,cus_00057,7500,INR,card,insufficient_funds,Insufficient funds,4,returning_customer,2026-02-19T09:14:00Z,false,0,development,20260822
+pay_000483,cus_00287,1999,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-02-06T23:12:00Z,true,1999,development,20260822
+pay_000484,cus_00233,7500,INR,wallet,technical_error,Unknown technical error,3,returning_customer,2026-04-21T10:09:00Z,true,7500,development,20260822
+pay_000485,cus_00283,499,INR,upi,suspected_fraud,Suspected fraud,1,subscription,2026-04-24T07:58:00Z,false,0,development,20260822
+pay_000486,cus_00149,4999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-01-15T12:19:00Z,false,0,development,20260822
+pay_000487,cus_00299,4999,INR,netbanking,insufficient_funds,Insufficient funds,3,returning_customer,2026-03-27T23:14:00Z,false,0,development,20260822
+pay_000488,cus_00099,4999,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-04-13T09:35:00Z,true,4999,development,20260822
+pay_000489,cus_00226,799,INR,netbanking,invalid_account,Invalid account,2,new_customer,2026-04-03T10:17:00Z,false,0,development,20260822
+pay_000490,cus_00039,1499,INR,card,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-02-23T20:13:00Z,true,1499,development,20260822
+pay_000491,cus_00227,2999,INR,card,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-05-22T02:21:00Z,true,2999,development,20260822
+pay_000492,cus_00336,4999,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-02-15T10:19:00Z,false,0,development,20260822
+pay_000493,cus_00178,499,INR,wallet,insufficient_funds,Insufficient funds,3,business_customer,2026-03-11T00:09:00Z,false,0,development,20260822
+pay_000494,cus_00108,999,INR,wallet,technical_error,Unknown technical error,1,subscription,2026-03-07T21:59:00Z,false,0,development,20260822
+pay_000495,cus_00265,25000,INR,netbanking,bank_timeout,Bank timeout,3,new_customer,2026-06-13T11:16:00Z,true,25000,development,20260822
+pay_000496,cus_00143,25000,INR,upi,expired_card,Expired card,4,new_customer,2026-01-01T07:37:00Z,false,0,development,20260822
+pay_000497,cus_00376,999,INR,wallet,expired_card,Expired card,1,new_customer,2026-01-14T05:12:00Z,true,999,development,20260822
+pay_000498,cus_00206,1499,INR,card,technical_error,Unknown technical error,3,business_customer,2026-01-28T07:15:00Z,true,1499,development,20260822
+pay_000499,cus_00084,7500,INR,card,invalid_account,Invalid account,2,new_customer,2026-01-24T04:28:00Z,true,7500,development,20260822
+pay_000500,cus_00343,25000,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-03-26T13:17:00Z,false,0,development,20260822
+pay_000501,cus_00384,999,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-06-26T05:26:00Z,true,999,development,20260822
+pay_000502,cus_00301,799,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-04-21T14:10:00Z,false,0,development,20260822
+pay_000503,cus_00183,50000,INR,card,technical_error,Unknown technical error,2,business_customer,2026-06-12T11:52:00Z,true,50000,development,20260822
+pay_000504,cus_00002,7500,INR,wallet,insufficient_funds,Insufficient funds,2,subscription,2026-05-04T01:41:00Z,false,0,development,20260822
+pay_000505,cus_00219,25000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-03-08T08:26:00Z,true,25000,development,20260822
+pay_000506,cus_00041,499,INR,upi,technical_error,Unknown technical error,3,subscription,2026-05-04T23:25:00Z,false,0,development,20260822
+pay_000507,cus_00200,50000,INR,upi,technical_error,Unknown technical error,1,business_customer,2026-06-03T09:10:00Z,true,50000,development,20260822
+pay_000508,cus_00242,2999,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-03-10T13:41:00Z,true,2999,development,20260822
+pay_000509,cus_00283,7500,INR,netbanking,insufficient_funds,Insufficient funds,1,new_customer,2026-04-12T16:27:00Z,true,7500,development,20260822
+pay_000510,cus_00372,1999,INR,upi,expired_card,Expired card,1,new_customer,2026-06-27T03:23:00Z,true,1999,development,20260822
+pay_000511,cus_00297,1999,INR,netbanking,insufficient_funds,Insufficient funds,1,new_customer,2026-03-30T18:41:00Z,false,0,development,20260822
+pay_000512,cus_00021,1999,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-02-10T21:10:00Z,true,1999,development,20260822
+pay_000513,cus_00072,499,INR,netbanking,insufficient_funds,Insufficient funds,2,returning_customer,2026-05-17T22:35:00Z,true,499,development,20260822
+pay_000514,cus_00242,999,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-02-19T07:38:00Z,true,999,development,20260822
+pay_000515,cus_00395,7500,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-02-04T06:58:00Z,false,0,development,20260822
+pay_000516,cus_00354,499,INR,upi,technical_error,Unknown technical error,1,new_customer,2026-03-07T23:20:00Z,true,499,development,20260822
+pay_000517,cus_00064,12000,INR,card,technical_error,Unknown technical error,1,new_customer,2026-06-05T12:22:00Z,true,12000,development,20260822
+pay_000518,cus_00360,799,INR,upi,suspected_fraud,Suspected fraud,1,returning_customer,2026-05-27T03:29:00Z,false,0,development,20260822
+pay_000519,cus_00155,7500,INR,upi,authentication_failure,Authentication failure,1,subscription,2026-06-07T10:37:00Z,false,0,development,20260822
+pay_000520,cus_00081,25000,INR,wallet,expired_card,Expired card,2,returning_customer,2026-01-09T13:34:00Z,true,25000,development,20260822
+pay_000521,cus_00164,12000,INR,upi,technical_error,Unknown technical error,1,business_customer,2026-05-22T13:37:00Z,true,12000,development,20260822
+pay_000522,cus_00020,25000,INR,wallet,technical_error,Unknown technical error,1,business_customer,2026-02-16T12:04:00Z,false,0,development,20260822
+pay_000523,cus_00150,12000,INR,wallet,insufficient_funds,Insufficient funds,2,new_customer,2026-04-01T19:53:00Z,false,0,development,20260822
+pay_000524,cus_00137,7500,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-04-18T13:43:00Z,true,7500,development,20260822
+pay_000525,cus_00197,7500,INR,card,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-02-02T19:21:00Z,false,0,development,20260822
+pay_000526,cus_00035,25000,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-04-11T06:40:00Z,true,25000,development,20260822
+pay_000527,cus_00373,25000,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-05-28T12:53:00Z,true,25000,development,20260822
+pay_000528,cus_00182,7500,INR,netbanking,technical_error,Unknown technical error,1,subscription,2026-02-21T22:07:00Z,true,7500,development,20260822
+pay_000529,cus_00159,7500,INR,card,suspected_fraud,Suspected fraud,2,returning_customer,2026-05-22T19:27:00Z,false,0,development,20260822
+pay_000530,cus_00283,1999,INR,card,suspected_fraud,Suspected fraud,2,subscription,2026-06-07T14:44:00Z,false,0,development,20260822
+pay_000531,cus_00151,499,INR,netbanking,suspected_fraud,Suspected fraud,4,new_customer,2026-06-09T22:55:00Z,false,0,development,20260822
+pay_000532,cus_00079,1499,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,business_customer,2026-02-08T16:18:00Z,true,1499,development,20260822
+pay_000533,cus_00230,7500,INR,netbanking,insufficient_funds,Insufficient funds,1,new_customer,2026-04-15T12:44:00Z,false,0,development,20260822
+pay_000534,cus_00199,12000,INR,wallet,expired_card,Expired card,1,business_customer,2026-02-04T04:12:00Z,true,12000,development,20260822
+pay_000535,cus_00382,499,INR,netbanking,insufficient_funds,Insufficient funds,2,returning_customer,2026-01-10T02:09:00Z,true,499,development,20260822
+pay_000536,cus_00275,999,INR,card,expired_card,Expired card,3,subscription,2026-03-30T03:36:00Z,true,999,development,20260822
+pay_000537,cus_00253,1499,INR,card,technical_error,Unknown technical error,2,returning_customer,2026-02-04T03:12:00Z,true,1499,development,20260822
+pay_000538,cus_00119,25000,INR,wallet,authentication_failure,Authentication failure,2,subscription,2026-01-02T19:53:00Z,true,25000,development,20260822
+pay_000539,cus_00289,799,INR,upi,insufficient_funds,Insufficient funds,2,new_customer,2026-04-27T15:47:00Z,false,0,development,20260822
+pay_000540,cus_00138,1499,INR,wallet,expired_card,Expired card,4,business_customer,2026-05-31T06:54:00Z,true,1499,development,20260822
+pay_000541,cus_00103,799,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,3,subscription,2026-01-10T12:08:00Z,false,0,development,20260822
+pay_000542,cus_00281,799,INR,upi,insufficient_funds,Insufficient funds,4,subscription,2026-05-02T00:12:00Z,false,0,development,20260822
+pay_000543,cus_00201,4999,INR,card,technical_error,Unknown technical error,1,subscription,2026-05-13T13:44:00Z,false,0,development,20260822
+pay_000544,cus_00271,999,INR,upi,invalid_account,Invalid account,1,returning_customer,2026-01-15T17:39:00Z,false,0,development,20260822
+pay_000545,cus_00345,1499,INR,upi,bank_timeout,Bank timeout,1,returning_customer,2026-04-18T03:02:00Z,false,0,development,20260822
+pay_000546,cus_00038,1499,INR,upi,technical_error,Unknown technical error,3,returning_customer,2026-06-16T11:11:00Z,true,1499,development,20260822
+pay_000547,cus_00116,1499,INR,upi,bank_timeout,Bank timeout,2,subscription,2026-02-18T11:41:00Z,false,0,development,20260822
+pay_000548,cus_00196,499,INR,upi,insufficient_funds,Insufficient funds,2,returning_customer,2026-02-08T04:08:00Z,false,0,development,20260822
+pay_000549,cus_00207,1499,INR,card,bank_timeout,Bank timeout,1,business_customer,2026-02-01T11:13:00Z,true,1499,development,20260822
+pay_000550,cus_00270,1999,INR,netbanking,bank_timeout,Bank timeout,2,subscription,2026-06-20T13:23:00Z,true,1999,development,20260822
+pay_000551,cus_00102,7500,INR,netbanking,expired_card,Expired card,1,returning_customer,2026-01-01T15:16:00Z,true,7500,development,20260822
+pay_000552,cus_00280,499,INR,netbanking,suspected_fraud,Suspected fraud,1,subscription,2026-05-30T22:14:00Z,false,0,development,20260822
+pay_000553,cus_00094,999,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-02-25T08:04:00Z,true,999,development,20260822
+pay_000554,cus_00013,4999,INR,upi,authentication_failure,Authentication failure,2,subscription,2026-04-03T20:24:00Z,false,0,development,20260822
+pay_000555,cus_00264,12000,INR,upi,insufficient_funds,Insufficient funds,2,subscription,2026-05-16T12:56:00Z,false,0,development,20260822
+pay_000556,cus_00330,4999,INR,card,invalid_account,Invalid account,2,business_customer,2026-03-17T05:01:00Z,false,0,development,20260822
+pay_000557,cus_00407,799,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-02-09T02:32:00Z,true,799,development,20260822
+pay_000558,cus_00220,50000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,3,new_customer,2026-01-17T03:00:00Z,false,0,development,20260822
+pay_000559,cus_00057,799,INR,card,suspected_fraud,Suspected fraud,1,returning_customer,2026-06-23T22:19:00Z,false,0,development,20260822
+pay_000560,cus_00047,7500,INR,netbanking,invalid_account,Invalid account,1,new_customer,2026-06-11T06:59:00Z,false,0,development,20260822
+pay_000561,cus_00379,7500,INR,card,expired_card,Expired card,4,returning_customer,2026-06-13T02:49:00Z,false,0,development,20260822
+pay_000562,cus_00339,1999,INR,card,technical_error,Unknown technical error,1,subscription,2026-06-01T11:13:00Z,true,1999,development,20260822
+pay_000563,cus_00267,799,INR,wallet,technical_error,Unknown technical error,2,returning_customer,2026-05-30T17:55:00Z,false,0,development,20260822
+pay_000564,cus_00206,799,INR,netbanking,technical_error,Unknown technical error,1,business_customer,2026-06-26T02:34:00Z,true,799,development,20260822
+pay_000565,cus_00310,799,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-05-21T20:42:00Z,true,799,development,20260822
+pay_000566,cus_00326,999,INR,upi,insufficient_funds,Insufficient funds,2,returning_customer,2026-01-02T05:26:00Z,false,0,development,20260822
+pay_000567,cus_00323,50000,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-06-16T19:54:00Z,false,0,development,20260822
+pay_000568,cus_00418,4999,INR,card,invalid_account,Invalid account,1,returning_customer,2026-04-27T09:22:00Z,false,0,development,20260822
+pay_000569,cus_00277,7500,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-01-04T09:11:00Z,false,0,development,20260822
+pay_000570,cus_00238,25000,INR,upi,insufficient_funds,Insufficient funds,1,returning_customer,2026-05-28T13:38:00Z,false,0,development,20260822
+pay_000571,cus_00012,799,INR,upi,invalid_account,Invalid account,1,returning_customer,2026-01-18T05:53:00Z,true,799,development,20260822
+pay_000572,cus_00386,1999,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-01-25T23:37:00Z,true,1999,development,20260822
+pay_000573,cus_00402,50000,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-01-28T05:17:00Z,true,50000,development,20260822
+pay_000574,cus_00256,4999,INR,card,invalid_account,Invalid account,1,returning_customer,2026-01-04T07:43:00Z,false,0,development,20260822
+pay_000575,cus_00345,799,INR,wallet,technical_error,Unknown technical error,2,business_customer,2026-04-16T09:51:00Z,true,799,development,20260822
+pay_000576,cus_00154,499,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-05-24T21:12:00Z,false,0,development,20260822
+pay_000577,cus_00130,25000,INR,card,expired_card,Expired card,1,business_customer,2026-02-25T09:07:00Z,true,25000,development,20260822
+pay_000578,cus_00200,25000,INR,netbanking,technical_error,Unknown technical error,4,returning_customer,2026-02-15T10:22:00Z,true,25000,development,20260822
+pay_000579,cus_00367,1499,INR,upi,invalid_account,Invalid account,2,business_customer,2026-06-17T08:53:00Z,true,1499,development,20260822
+pay_000580,cus_00018,12000,INR,card,authentication_failure,Authentication failure,1,business_customer,2026-03-15T20:00:00Z,false,0,development,20260822
+pay_000581,cus_00009,50000,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-02-10T10:10:00Z,false,0,development,20260822
+pay_000582,cus_00218,7500,INR,netbanking,invalid_account,Invalid account,2,new_customer,2026-03-09T16:25:00Z,false,0,development,20260822
+pay_000583,cus_00289,50000,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-05-25T10:49:00Z,true,50000,development,20260822
+pay_000584,cus_00326,50000,INR,upi,expired_card,Expired card,1,business_customer,2026-03-07T01:34:00Z,true,50000,development,20260822
+pay_000585,cus_00038,7500,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-05-25T08:33:00Z,true,7500,development,20260822
+pay_000586,cus_00195,4999,INR,card,invalid_account,Invalid account,2,subscription,2026-03-22T04:04:00Z,false,0,development,20260822
+pay_000587,cus_00376,2999,INR,upi,daily_limit_exceeded,Daily limit exceeded,3,subscription,2026-03-19T03:11:00Z,false,0,development,20260822
+pay_000588,cus_00125,799,INR,upi,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-01T09:24:00Z,true,799,development,20260822
+pay_000589,cus_00145,25000,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-05-11T18:48:00Z,true,25000,development,20260822
+pay_000590,cus_00277,4999,INR,wallet,expired_card,Expired card,1,new_customer,2026-03-20T07:19:00Z,true,4999,development,20260822
+pay_000591,cus_00199,2999,INR,wallet,expired_card,Expired card,1,new_customer,2026-02-12T03:53:00Z,true,2999,development,20260822
+pay_000592,cus_00306,1999,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-06-16T04:26:00Z,true,1999,development,20260822
+pay_000593,cus_00073,999,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-01-05T14:08:00Z,true,999,development,20260822
+pay_000594,cus_00300,50000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,new_customer,2026-02-10T19:43:00Z,true,50000,development,20260822
+pay_000595,cus_00230,7500,INR,netbanking,expired_card,Expired card,1,business_customer,2026-01-03T15:04:00Z,false,0,development,20260822
+pay_000596,cus_00066,799,INR,netbanking,bank_timeout,Bank timeout,1,new_customer,2026-01-06T10:24:00Z,true,799,development,20260822
+pay_000597,cus_00310,4999,INR,upi,technical_error,Unknown technical error,2,new_customer,2026-03-28T05:46:00Z,false,0,development,20260822
+pay_000598,cus_00192,999,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-06-29T16:14:00Z,false,0,development,20260822
+pay_000599,cus_00051,1499,INR,upi,expired_card,Expired card,2,returning_customer,2026-01-03T13:42:00Z,true,1499,development,20260822
+pay_000600,cus_00206,999,INR,upi,insufficient_funds,Insufficient funds,2,returning_customer,2026-06-10T06:55:00Z,false,0,development,20260822
+pay_000601,cus_00070,12000,INR,wallet,expired_card,Expired card,3,new_customer,2026-06-15T11:39:00Z,false,0,development,20260822
+pay_000602,cus_00226,1999,INR,netbanking,technical_error,Unknown technical error,2,business_customer,2026-04-14T15:16:00Z,true,1999,development,20260822
+pay_000603,cus_00277,999,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-01-02T18:00:00Z,true,999,development,20260822
+pay_000604,cus_00255,4999,INR,card,technical_error,Unknown technical error,1,returning_customer,2026-03-20T05:36:00Z,true,4999,development,20260822
+pay_000605,cus_00270,4999,INR,card,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-06-15T17:10:00Z,true,4999,development,20260822
+pay_000606,cus_00357,799,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-06-10T08:38:00Z,false,0,development,20260822
+pay_000607,cus_00216,1499,INR,card,technical_error,Unknown technical error,1,new_customer,2026-05-08T04:50:00Z,true,1499,development,20260822
+pay_000608,cus_00021,4999,INR,card,daily_limit_exceeded,Daily limit exceeded,1,new_customer,2026-02-01T04:32:00Z,false,0,development,20260822
+pay_000609,cus_00041,999,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-04-13T15:18:00Z,true,999,development,20260822
+pay_000610,cus_00223,499,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-04-25T13:26:00Z,false,0,development,20260822
+pay_000611,cus_00383,25000,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-05-09T04:31:00Z,false,0,development,20260822
+pay_000612,cus_00192,12000,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-04-13T21:34:00Z,true,12000,development,20260822
+pay_000613,cus_00129,799,INR,netbanking,authentication_failure,Authentication failure,4,business_customer,2026-02-20T20:18:00Z,false,0,development,20260822
+pay_000614,cus_00101,1499,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-05-27T10:54:00Z,true,1499,development,20260822
+pay_000615,cus_00381,4999,INR,wallet,expired_card,Expired card,1,returning_customer,2026-03-08T11:57:00Z,true,4999,development,20260822
+pay_000616,cus_00377,12000,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-02-05T11:21:00Z,true,12000,development,20260822
+pay_000617,cus_00153,4999,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-06-20T01:44:00Z,true,4999,development,20260822
+pay_000618,cus_00117,12000,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-03-27T23:39:00Z,true,12000,development,20260822
+pay_000619,cus_00072,499,INR,netbanking,insufficient_funds,Insufficient funds,1,new_customer,2026-06-25T03:55:00Z,false,0,development,20260822
+pay_000620,cus_00010,2999,INR,upi,invalid_account,Invalid account,3,subscription,2026-05-23T17:20:00Z,false,0,development,20260822
+pay_000621,cus_00148,7500,INR,upi,technical_error,Unknown technical error,1,subscription,2026-05-11T04:39:00Z,true,7500,development,20260822
+pay_000622,cus_00125,4999,INR,upi,suspected_fraud,Suspected fraud,1,business_customer,2026-05-15T06:17:00Z,false,0,development,20260822
+pay_000623,cus_00079,25000,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-05-15T00:08:00Z,false,0,development,20260822
+pay_000624,cus_00127,999,INR,upi,expired_card,Expired card,2,new_customer,2026-02-22T10:54:00Z,true,999,development,20260822
+pay_000625,cus_00359,999,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-06-14T19:32:00Z,false,0,development,20260822
+pay_000626,cus_00344,2999,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-02-14T10:57:00Z,false,0,development,20260822
+pay_000627,cus_00265,2999,INR,wallet,authentication_failure,Authentication failure,2,business_customer,2026-06-25T14:00:00Z,true,2999,development,20260822
+pay_000628,cus_00246,4999,INR,upi,authentication_failure,Authentication failure,2,business_customer,2026-01-12T11:55:00Z,false,0,development,20260822
+pay_000629,cus_00259,499,INR,card,insufficient_funds,Insufficient funds,2,business_customer,2026-05-18T05:36:00Z,false,0,development,20260822
+pay_000630,cus_00397,999,INR,netbanking,technical_error,Unknown technical error,2,subscription,2026-05-07T17:02:00Z,false,0,development,20260822
+pay_000631,cus_00239,1999,INR,upi,authentication_failure,Authentication failure,2,business_customer,2026-06-05T17:48:00Z,false,0,development,20260822
+pay_000632,cus_00393,4999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-01-21T11:31:00Z,false,0,development,20260822
+pay_000633,cus_00241,499,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-01-27T08:55:00Z,false,0,development,20260822
+pay_000634,cus_00403,2999,INR,wallet,insufficient_funds,Insufficient funds,3,new_customer,2026-01-09T06:13:00Z,false,0,development,20260822
+pay_000635,cus_00044,2999,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-03-26T02:29:00Z,true,2999,development,20260822
+pay_000636,cus_00156,1999,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-06-09T09:19:00Z,true,1999,development,20260822
+pay_000637,cus_00054,1999,INR,card,authentication_failure,Authentication failure,1,returning_customer,2026-04-24T08:03:00Z,true,1999,development,20260822
+pay_000638,cus_00394,12000,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-03-02T09:43:00Z,true,12000,development,20260822
+pay_000639,cus_00066,50000,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-06-08T05:03:00Z,true,50000,development,20260822
+pay_000640,cus_00104,25000,INR,card,technical_error,Unknown technical error,2,subscription,2026-02-05T14:32:00Z,true,25000,development,20260822
+pay_000641,cus_00204,1499,INR,wallet,suspected_fraud,Suspected fraud,2,returning_customer,2026-03-25T13:26:00Z,false,0,development,20260822
+pay_000642,cus_00035,12000,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-05-06T16:32:00Z,true,12000,development,20260822
+pay_000643,cus_00012,50000,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-02-24T05:09:00Z,true,50000,development,20260822
+pay_000644,cus_00249,999,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-02-12T02:31:00Z,false,0,development,20260822
+pay_000645,cus_00370,4999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-01-09T03:38:00Z,true,4999,development,20260822
+pay_000646,cus_00139,12000,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-04-30T02:09:00Z,true,12000,development,20260822
+pay_000647,cus_00149,7500,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-04-05T10:50:00Z,true,7500,development,20260822
+pay_000648,cus_00396,4999,INR,upi,expired_card,Expired card,4,new_customer,2026-04-01T19:36:00Z,false,0,development,20260822
+pay_000649,cus_00102,499,INR,netbanking,expired_card,Expired card,3,subscription,2026-04-09T03:18:00Z,true,499,development,20260822
+pay_000650,cus_00317,999,INR,wallet,authentication_failure,Authentication failure,3,new_customer,2026-02-09T17:02:00Z,false,0,development,20260822
+pay_000651,cus_00139,7500,INR,upi,insufficient_funds,Insufficient funds,4,business_customer,2026-03-31T16:05:00Z,false,0,development,20260822
+pay_000652,cus_00064,2999,INR,card,insufficient_funds,Insufficient funds,2,business_customer,2026-04-05T04:58:00Z,false,0,development,20260822
+pay_000653,cus_00347,50000,INR,wallet,suspected_fraud,Suspected fraud,1,subscription,2026-01-27T06:10:00Z,false,0,development,20260822
+pay_000654,cus_00118,499,INR,netbanking,insufficient_funds,Insufficient funds,2,subscription,2026-04-19T06:00:00Z,true,499,development,20260822
+pay_000655,cus_00127,999,INR,card,technical_error,Unknown technical error,3,new_customer,2026-04-13T19:46:00Z,false,0,development,20260822
+pay_000656,cus_00142,1499,INR,wallet,insufficient_funds,Insufficient funds,3,subscription,2026-01-18T17:58:00Z,false,0,development,20260822
+pay_000657,cus_00139,4999,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,new_customer,2026-06-04T10:15:00Z,true,4999,development,20260822
+pay_000658,cus_00101,1499,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-04-13T08:49:00Z,true,1499,development,20260822
+pay_000659,cus_00284,7500,INR,upi,authentication_failure,Authentication failure,2,business_customer,2026-02-11T00:58:00Z,false,0,development,20260822
+pay_000660,cus_00173,2999,INR,card,authentication_failure,Authentication failure,2,new_customer,2026-06-10T01:05:00Z,false,0,development,20260822
+pay_000661,cus_00162,2999,INR,card,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-01-30T21:48:00Z,true,2999,development,20260822
+pay_000662,cus_00368,12000,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-04-28T21:17:00Z,false,0,development,20260822
+pay_000663,cus_00004,499,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-05-06T06:39:00Z,false,0,development,20260822
+pay_000664,cus_00345,1999,INR,wallet,technical_error,Unknown technical error,1,new_customer,2026-01-09T12:58:00Z,true,1999,development,20260822
+pay_000665,cus_00138,12000,INR,netbanking,authentication_failure,Authentication failure,2,new_customer,2026-03-01T04:46:00Z,false,0,development,20260822
+pay_000666,cus_00076,50000,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-02-18T16:01:00Z,true,50000,development,20260822
+pay_000667,cus_00023,499,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-15T07:44:00Z,true,499,development,20260822
+pay_000668,cus_00292,1999,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-04-26T10:05:00Z,false,0,development,20260822
+pay_000669,cus_00374,799,INR,wallet,invalid_account,Invalid account,2,new_customer,2026-03-07T01:30:00Z,false,0,development,20260822
+pay_000670,cus_00064,499,INR,card,authentication_failure,Authentication failure,1,business_customer,2026-04-04T21:15:00Z,false,0,development,20260822
+pay_000671,cus_00287,999,INR,upi,bank_timeout,Bank timeout,2,business_customer,2026-05-11T12:14:00Z,false,0,development,20260822
+pay_000672,cus_00135,799,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-01-21T14:20:00Z,false,0,development,20260822
+pay_000673,cus_00409,4999,INR,upi,bank_timeout,Bank timeout,2,subscription,2026-04-12T13:39:00Z,true,4999,development,20260822
+pay_000674,cus_00270,999,INR,netbanking,authentication_failure,Authentication failure,1,subscription,2026-04-21T04:28:00Z,true,999,development,20260822
+pay_000675,cus_00262,12000,INR,wallet,technical_error,Unknown technical error,2,subscription,2026-02-18T09:32:00Z,true,12000,development,20260822
+pay_000676,cus_00133,25000,INR,card,authentication_failure,Authentication failure,1,subscription,2026-06-03T02:37:00Z,false,0,development,20260822
+pay_000677,cus_00174,50000,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-04-09T20:48:00Z,true,50000,development,20260822
+pay_000678,cus_00043,4999,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-05-29T02:15:00Z,true,4999,development,20260822
+pay_000679,cus_00168,1499,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-03-25T13:39:00Z,false,0,development,20260822
+pay_000680,cus_00057,499,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-04-10T17:18:00Z,false,0,development,20260822
+pay_000681,cus_00404,50000,INR,card,technical_error,Unknown technical error,1,business_customer,2026-05-10T05:37:00Z,false,0,development,20260822
+pay_000682,cus_00417,1999,INR,wallet,insufficient_funds,Insufficient funds,3,subscription,2026-06-16T01:27:00Z,false,0,development,20260822
+pay_000683,cus_00368,1499,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-01-30T00:34:00Z,true,1499,development,20260822
+pay_000684,cus_00180,799,INR,upi,technical_error,Unknown technical error,3,subscription,2026-01-30T12:26:00Z,false,0,development,20260822
+pay_000685,cus_00411,999,INR,wallet,expired_card,Expired card,1,business_customer,2026-02-16T23:01:00Z,true,999,development,20260822
+pay_000686,cus_00309,999,INR,wallet,bank_timeout,Bank timeout,2,business_customer,2026-01-17T03:10:00Z,true,999,development,20260822
+pay_000687,cus_00315,25000,INR,upi,authentication_failure,Authentication failure,1,subscription,2026-04-17T06:33:00Z,true,25000,development,20260822
+pay_000688,cus_00101,25000,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-03-31T11:10:00Z,false,0,development,20260822
+pay_000689,cus_00209,799,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-02-28T22:50:00Z,false,0,development,20260822
+pay_000690,cus_00014,999,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-01-02T23:24:00Z,true,999,development,20260822
+pay_000691,cus_00117,12000,INR,upi,authentication_failure,Authentication failure,1,returning_customer,2026-03-18T09:31:00Z,false,0,development,20260822
+pay_000692,cus_00123,50000,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-02-16T18:24:00Z,false,0,development,20260822
+pay_000693,cus_00237,2999,INR,upi,authentication_failure,Authentication failure,4,returning_customer,2026-05-17T10:32:00Z,false,0,development,20260822
+pay_000694,cus_00189,2999,INR,upi,bank_timeout,Bank timeout,3,new_customer,2026-03-26T09:48:00Z,true,2999,development,20260822
+pay_000695,cus_00122,799,INR,card,invalid_account,Invalid account,1,business_customer,2026-04-11T03:55:00Z,false,0,development,20260822
+pay_000696,cus_00228,2999,INR,wallet,bank_timeout,Bank timeout,1,subscription,2026-05-26T19:19:00Z,true,2999,development,20260822
+pay_000697,cus_00213,4999,INR,upi,insufficient_funds,Insufficient funds,1,returning_customer,2026-04-01T17:44:00Z,true,4999,development,20260822
+pay_000698,cus_00291,7500,INR,upi,expired_card,Expired card,3,subscription,2026-06-26T11:41:00Z,true,7500,development,20260822
+pay_000699,cus_00015,50000,INR,card,insufficient_funds,Insufficient funds,3,returning_customer,2026-05-03T10:45:00Z,false,0,development,20260822
+pay_000700,cus_00048,799,INR,wallet,expired_card,Expired card,1,subscription,2026-01-14T02:10:00Z,true,799,development,20260822
+pay_000701,cus_00402,999,INR,card,suspected_fraud,Suspected fraud,1,new_customer,2026-01-19T00:57:00Z,false,0,development,20260822
+pay_000702,cus_00265,7500,INR,netbanking,suspected_fraud,Suspected fraud,4,returning_customer,2026-03-04T19:36:00Z,false,0,development,20260822
+pay_000703,cus_00184,12000,INR,card,bank_timeout,Bank timeout,2,subscription,2026-03-14T06:42:00Z,false,0,development,20260822
+pay_000704,cus_00266,12000,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-01-03T08:01:00Z,false,0,development,20260822
+pay_000705,cus_00246,1999,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-06-24T11:50:00Z,true,1999,development,20260822
+pay_000706,cus_00370,50000,INR,upi,daily_limit_exceeded,Daily limit exceeded,3,new_customer,2026-05-13T04:32:00Z,false,0,development,20260822
+pay_000707,cus_00278,12000,INR,upi,expired_card,Expired card,1,new_customer,2026-01-15T18:47:00Z,true,12000,development,20260822
+pay_000708,cus_00350,2999,INR,wallet,authentication_failure,Authentication failure,2,new_customer,2026-03-08T18:23:00Z,false,0,development,20260822
+pay_000709,cus_00310,50000,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-02-19T04:54:00Z,false,0,development,20260822
+pay_000710,cus_00352,4999,INR,netbanking,technical_error,Unknown technical error,2,business_customer,2026-06-06T14:25:00Z,true,4999,development,20260822
+pay_000711,cus_00094,799,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-03-01T09:54:00Z,true,799,development,20260822
+pay_000712,cus_00176,1499,INR,netbanking,insufficient_funds,Insufficient funds,2,business_customer,2026-01-04T06:05:00Z,true,1499,development,20260822
+pay_000713,cus_00296,999,INR,upi,expired_card,Expired card,1,business_customer,2026-02-15T01:26:00Z,false,0,development,20260822
+pay_000714,cus_00058,1499,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-04-12T18:58:00Z,false,0,development,20260822
+pay_000715,cus_00115,1499,INR,wallet,expired_card,Expired card,1,returning_customer,2026-03-10T21:35:00Z,true,1499,development,20260822
+pay_000716,cus_00004,4999,INR,card,invalid_account,Invalid account,1,subscription,2026-06-21T02:39:00Z,false,0,development,20260822
+pay_000717,cus_00061,1499,INR,upi,expired_card,Expired card,3,subscription,2026-03-08T21:41:00Z,true,1499,development,20260822
+pay_000718,cus_00296,799,INR,upi,suspected_fraud,Suspected fraud,2,returning_customer,2026-05-05T04:01:00Z,false,0,development,20260822
+pay_000719,cus_00223,12000,INR,upi,technical_error,Unknown technical error,1,returning_customer,2026-03-18T21:53:00Z,false,0,development,20260822
+pay_000720,cus_00193,7500,INR,netbanking,authentication_failure,Authentication failure,2,returning_customer,2026-01-25T16:46:00Z,true,7500,development,20260822
+pay_000721,cus_00024,1499,INR,netbanking,insufficient_funds,Insufficient funds,2,returning_customer,2026-03-18T01:03:00Z,true,1499,development,20260822
+pay_000722,cus_00219,7500,INR,wallet,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-02-10T09:35:00Z,true,7500,development,20260822
+pay_000723,cus_00392,12000,INR,card,bank_timeout,Bank timeout,1,business_customer,2026-06-16T13:49:00Z,true,12000,development,20260822
+pay_000724,cus_00383,25000,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-05-15T01:41:00Z,false,0,development,20260822
+pay_000725,cus_00118,2999,INR,wallet,authentication_failure,Authentication failure,3,new_customer,2026-03-22T17:35:00Z,false,0,development,20260822
+pay_000726,cus_00389,7500,INR,upi,bank_timeout,Bank timeout,2,new_customer,2026-04-29T02:28:00Z,false,0,development,20260822
+pay_000727,cus_00349,999,INR,upi,suspected_fraud,Suspected fraud,1,returning_customer,2026-02-03T05:56:00Z,false,0,development,20260822
+pay_000728,cus_00179,4999,INR,card,expired_card,Expired card,1,new_customer,2026-04-26T23:41:00Z,true,4999,development,20260822
+pay_000729,cus_00051,4999,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-02-13T12:27:00Z,false,0,development,20260822
+pay_000730,cus_00025,1999,INR,wallet,insufficient_funds,Insufficient funds,3,returning_customer,2026-01-12T13:46:00Z,true,1999,development,20260822
+pay_000731,cus_00209,7500,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-06-23T17:11:00Z,false,0,development,20260822
+pay_000732,cus_00191,799,INR,netbanking,technical_error,Unknown technical error,1,subscription,2026-05-29T03:30:00Z,true,799,development,20260822
+pay_000733,cus_00293,2999,INR,upi,expired_card,Expired card,3,subscription,2026-05-30T19:03:00Z,true,2999,development,20260822
+pay_000734,cus_00037,2999,INR,netbanking,insufficient_funds,Insufficient funds,2,subscription,2026-05-09T00:22:00Z,false,0,development,20260822
+pay_000735,cus_00016,1499,INR,netbanking,expired_card,Expired card,1,returning_customer,2026-02-15T21:38:00Z,true,1499,development,20260822
+pay_000736,cus_00094,1999,INR,card,insufficient_funds,Insufficient funds,2,subscription,2026-06-03T05:37:00Z,false,0,development,20260822
+pay_000737,cus_00326,999,INR,netbanking,invalid_account,Invalid account,3,new_customer,2026-05-10T21:05:00Z,false,0,development,20260822
+pay_000738,cus_00091,1999,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-04-18T14:20:00Z,true,1999,development,20260822
+pay_000739,cus_00066,50000,INR,upi,insufficient_funds,Insufficient funds,2,business_customer,2026-01-01T07:43:00Z,true,50000,development,20260822
+pay_000740,cus_00159,7500,INR,netbanking,expired_card,Expired card,1,business_customer,2026-06-24T18:39:00Z,true,7500,development,20260822
+pay_000741,cus_00218,1999,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-01-17T19:48:00Z,true,1999,development,20260822
+pay_000742,cus_00141,12000,INR,wallet,insufficient_funds,Insufficient funds,4,returning_customer,2026-05-09T09:10:00Z,false,0,development,20260822
+pay_000743,cus_00349,7500,INR,card,authentication_failure,Authentication failure,1,subscription,2026-05-06T05:16:00Z,false,0,development,20260822
+pay_000744,cus_00338,799,INR,netbanking,invalid_account,Invalid account,1,new_customer,2026-03-10T14:30:00Z,false,0,development,20260822
+pay_000745,cus_00396,2999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-04-17T10:36:00Z,true,2999,development,20260822
+pay_000746,cus_00134,799,INR,upi,invalid_account,Invalid account,1,business_customer,2026-03-22T22:20:00Z,false,0,development,20260822
+pay_000747,cus_00410,799,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-01-12T15:14:00Z,false,0,development,20260822
+pay_000748,cus_00404,4999,INR,wallet,technical_error,Unknown technical error,3,returning_customer,2026-04-09T16:56:00Z,false,0,development,20260822
+pay_000749,cus_00328,25000,INR,netbanking,expired_card,Expired card,1,subscription,2026-04-14T02:50:00Z,true,25000,development,20260822
+pay_000750,cus_00128,7500,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-01-01T14:27:00Z,true,7500,development,20260822
+pay_000751,cus_00168,25000,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-01-19T05:19:00Z,true,25000,development,20260822
+pay_000752,cus_00406,4999,INR,netbanking,invalid_account,Invalid account,3,returning_customer,2026-01-28T23:54:00Z,false,0,development,20260822
+pay_000753,cus_00335,50000,INR,upi,insufficient_funds,Insufficient funds,2,subscription,2026-04-10T23:38:00Z,true,50000,development,20260822
+pay_000754,cus_00078,999,INR,upi,technical_error,Unknown technical error,3,subscription,2026-05-31T03:10:00Z,false,0,development,20260822
+pay_000755,cus_00247,25000,INR,wallet,bank_timeout,Bank timeout,1,new_customer,2026-02-20T14:12:00Z,false,0,development,20260822
+pay_000756,cus_00078,4999,INR,wallet,technical_error,Unknown technical error,2,business_customer,2026-04-03T15:30:00Z,false,0,development,20260822
+pay_000757,cus_00335,12000,INR,netbanking,insufficient_funds,Insufficient funds,2,new_customer,2026-05-15T05:50:00Z,false,0,development,20260822
+pay_000758,cus_00014,499,INR,card,suspected_fraud,Suspected fraud,1,business_customer,2026-04-07T01:00:00Z,false,0,development,20260822
+pay_000759,cus_00398,4999,INR,netbanking,insufficient_funds,Insufficient funds,2,returning_customer,2026-03-01T02:49:00Z,false,0,development,20260822
+pay_000760,cus_00193,4999,INR,upi,invalid_account,Invalid account,1,new_customer,2026-03-16T09:06:00Z,false,0,development,20260822
+pay_000761,cus_00073,25000,INR,netbanking,insufficient_funds,Insufficient funds,2,returning_customer,2026-06-22T02:36:00Z,true,25000,development,20260822
+pay_000762,cus_00324,999,INR,card,expired_card,Expired card,1,new_customer,2026-04-12T07:18:00Z,true,999,development,20260822
+pay_000763,cus_00079,2999,INR,netbanking,expired_card,Expired card,2,new_customer,2026-03-27T12:39:00Z,true,2999,development,20260822
+pay_000764,cus_00137,4999,INR,netbanking,insufficient_funds,Insufficient funds,2,new_customer,2026-05-23T05:06:00Z,false,0,development,20260822
+pay_000765,cus_00406,1999,INR,upi,bank_timeout,Bank timeout,2,new_customer,2026-02-08T01:27:00Z,true,1999,development,20260822
+pay_000766,cus_00248,499,INR,netbanking,authentication_failure,Authentication failure,2,new_customer,2026-03-15T00:48:00Z,false,0,development,20260822
+pay_000767,cus_00156,1499,INR,netbanking,expired_card,Expired card,1,subscription,2026-03-20T05:53:00Z,true,1499,development,20260822
+pay_000768,cus_00087,999,INR,netbanking,invalid_account,Invalid account,2,returning_customer,2026-01-31T06:43:00Z,false,0,development,20260822
+pay_000769,cus_00339,799,INR,netbanking,expired_card,Expired card,2,subscription,2026-01-18T18:43:00Z,true,799,development,20260822
+pay_000770,cus_00364,1499,INR,upi,suspected_fraud,Suspected fraud,1,new_customer,2026-04-09T20:53:00Z,false,0,development,20260822
+pay_000771,cus_00418,499,INR,card,invalid_account,Invalid account,1,returning_customer,2026-02-05T04:44:00Z,false,0,development,20260822
+pay_000772,cus_00396,799,INR,netbanking,expired_card,Expired card,1,business_customer,2026-02-17T10:40:00Z,false,0,development,20260822
+pay_000773,cus_00162,1999,INR,card,expired_card,Expired card,3,new_customer,2026-03-13T03:27:00Z,true,1999,development,20260822
+pay_000774,cus_00086,799,INR,upi,bank_timeout,Bank timeout,1,business_customer,2026-04-28T17:08:00Z,false,0,development,20260822
+pay_000775,cus_00056,499,INR,card,technical_error,Unknown technical error,1,new_customer,2026-01-29T22:29:00Z,true,499,development,20260822
+pay_000776,cus_00161,4999,INR,card,technical_error,Unknown technical error,2,subscription,2026-06-11T21:46:00Z,false,0,development,20260822
+pay_000777,cus_00242,799,INR,card,bank_timeout,Bank timeout,2,new_customer,2026-03-01T16:26:00Z,true,799,development,20260822
+pay_000778,cus_00083,4999,INR,card,insufficient_funds,Insufficient funds,2,new_customer,2026-06-06T02:54:00Z,false,0,development,20260822
+pay_000779,cus_00006,50000,INR,netbanking,technical_error,Unknown technical error,1,new_customer,2026-04-08T05:54:00Z,true,50000,development,20260822
+pay_000780,cus_00079,25000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-03-06T02:56:00Z,true,25000,development,20260822
+pay_000781,cus_00405,50000,INR,netbanking,authentication_failure,Authentication failure,1,returning_customer,2026-01-07T14:15:00Z,false,0,development,20260822
+pay_000782,cus_00250,50000,INR,upi,suspected_fraud,Suspected fraud,3,subscription,2026-04-22T15:34:00Z,false,0,development,20260822
+pay_000783,cus_00111,1999,INR,card,invalid_account,Invalid account,3,new_customer,2026-06-13T06:41:00Z,false,0,development,20260822
+pay_000784,cus_00029,7500,INR,wallet,bank_timeout,Bank timeout,2,new_customer,2026-04-10T10:37:00Z,true,7500,development,20260822
+pay_000785,cus_00102,2999,INR,upi,insufficient_funds,Insufficient funds,3,new_customer,2026-05-03T05:27:00Z,false,0,development,20260822
+pay_000786,cus_00295,50000,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-03T23:09:00Z,true,50000,development,20260822
+pay_000787,cus_00006,999,INR,netbanking,authentication_failure,Authentication failure,1,new_customer,2026-02-28T09:11:00Z,false,0,development,20260822
+pay_000788,cus_00328,4999,INR,card,insufficient_funds,Insufficient funds,1,returning_customer,2026-04-27T17:33:00Z,false,0,development,20260822
+pay_000789,cus_00035,50000,INR,card,technical_error,Unknown technical error,3,business_customer,2026-03-30T05:19:00Z,true,50000,development,20260822
+pay_000790,cus_00335,7500,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,new_customer,2026-03-22T10:48:00Z,false,0,development,20260822
+pay_000791,cus_00105,999,INR,card,authentication_failure,Authentication failure,2,new_customer,2026-04-28T05:08:00Z,false,0,development,20260822
+pay_000792,cus_00096,4999,INR,upi,insufficient_funds,Insufficient funds,1,business_customer,2026-06-20T04:21:00Z,false,0,development,20260822
+pay_000793,cus_00216,50000,INR,netbanking,bank_timeout,Bank timeout,3,new_customer,2026-06-09T12:33:00Z,true,50000,development,20260822
+pay_000794,cus_00249,50000,INR,netbanking,bank_timeout,Bank timeout,3,subscription,2026-06-25T19:11:00Z,true,50000,development,20260822
+pay_000795,cus_00403,1999,INR,wallet,invalid_account,Invalid account,1,business_customer,2026-04-18T06:09:00Z,true,1999,development,20260822
+pay_000796,cus_00293,4999,INR,card,insufficient_funds,Insufficient funds,2,subscription,2026-02-05T21:57:00Z,false,0,development,20260822
+pay_000797,cus_00366,2999,INR,upi,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-03T18:40:00Z,false,0,development,20260822
+pay_000798,cus_00381,799,INR,upi,invalid_account,Invalid account,2,business_customer,2026-05-08T19:07:00Z,false,0,development,20260822
+pay_000799,cus_00307,50000,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-03-03T19:37:00Z,true,50000,development,20260822
+pay_000800,cus_00055,1499,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-02-21T11:38:00Z,true,1499,development,20260822
+pay_000801,cus_00257,1499,INR,upi,insufficient_funds,Insufficient funds,3,new_customer,2026-06-07T07:24:00Z,false,0,holdout,20260822
+pay_000802,cus_00002,499,INR,card,authentication_failure,Authentication failure,2,new_customer,2026-06-22T09:37:00Z,false,0,holdout,20260822
+pay_000803,cus_00028,499,INR,netbanking,authentication_failure,Authentication failure,1,new_customer,2026-06-10T15:45:00Z,false,0,holdout,20260822
+pay_000804,cus_00020,1999,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-06-22T10:31:00Z,true,1999,holdout,20260822
+pay_000805,cus_00072,7500,INR,card,insufficient_funds,Insufficient funds,2,subscription,2026-01-12T07:10:00Z,false,0,holdout,20260822
+pay_000806,cus_00038,50000,INR,card,insufficient_funds,Insufficient funds,2,returning_customer,2026-04-25T21:19:00Z,true,50000,holdout,20260822
+pay_000807,cus_00370,25000,INR,netbanking,technical_error,Unknown technical error,1,subscription,2026-04-26T06:58:00Z,true,25000,holdout,20260822
+pay_000808,cus_00076,7500,INR,upi,authentication_failure,Authentication failure,1,subscription,2026-05-18T12:21:00Z,false,0,holdout,20260822
+pay_000809,cus_00182,1999,INR,upi,suspected_fraud,Suspected fraud,2,returning_customer,2026-02-09T15:16:00Z,false,0,holdout,20260822
+pay_000810,cus_00267,499,INR,netbanking,insufficient_funds,Insufficient funds,1,business_customer,2026-02-10T16:02:00Z,false,0,holdout,20260822
+pay_000811,cus_00210,50000,INR,upi,technical_error,Unknown technical error,2,returning_customer,2026-04-16T04:20:00Z,true,50000,holdout,20260822
+pay_000812,cus_00048,1999,INR,card,expired_card,Expired card,4,subscription,2026-04-24T17:25:00Z,true,1999,holdout,20260822
+pay_000813,cus_00186,1999,INR,wallet,authentication_failure,Authentication failure,2,new_customer,2026-06-29T18:30:00Z,false,0,holdout,20260822
+pay_000814,cus_00227,1999,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,new_customer,2026-06-17T00:52:00Z,true,1999,holdout,20260822
+pay_000815,cus_00074,2999,INR,upi,suspected_fraud,Suspected fraud,2,returning_customer,2026-06-13T08:09:00Z,false,0,holdout,20260822
+pay_000816,cus_00018,499,INR,netbanking,suspected_fraud,Suspected fraud,3,returning_customer,2026-04-23T15:59:00Z,false,0,holdout,20260822
+pay_000817,cus_00385,25000,INR,wallet,invalid_account,Invalid account,4,business_customer,2026-02-18T04:49:00Z,false,0,holdout,20260822
+pay_000818,cus_00080,4999,INR,netbanking,expired_card,Expired card,1,subscription,2026-02-20T07:00:00Z,false,0,holdout,20260822
+pay_000819,cus_00298,7500,INR,card,technical_error,Unknown technical error,2,business_customer,2026-05-05T00:49:00Z,true,7500,holdout,20260822
+pay_000820,cus_00119,25000,INR,wallet,expired_card,Expired card,3,subscription,2026-06-18T23:30:00Z,false,0,holdout,20260822
+pay_000821,cus_00407,4999,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-02-03T03:43:00Z,true,4999,holdout,20260822
+pay_000822,cus_00213,2999,INR,upi,insufficient_funds,Insufficient funds,2,new_customer,2026-04-18T06:45:00Z,false,0,holdout,20260822
+pay_000823,cus_00044,999,INR,card,expired_card,Expired card,1,business_customer,2026-03-07T08:40:00Z,true,999,holdout,20260822
+pay_000824,cus_00323,12000,INR,upi,authentication_failure,Authentication failure,1,new_customer,2026-04-19T08:33:00Z,true,12000,holdout,20260822
+pay_000825,cus_00348,1499,INR,wallet,insufficient_funds,Insufficient funds,2,new_customer,2026-06-27T10:26:00Z,true,1499,holdout,20260822
+pay_000826,cus_00069,999,INR,card,authentication_failure,Authentication failure,3,new_customer,2026-05-26T16:14:00Z,false,0,holdout,20260822
+pay_000827,cus_00085,7500,INR,netbanking,bank_timeout,Bank timeout,2,subscription,2026-01-25T03:03:00Z,true,7500,holdout,20260822
+pay_000828,cus_00219,1499,INR,netbanking,expired_card,Expired card,2,business_customer,2026-03-22T09:55:00Z,false,0,holdout,20260822
+pay_000829,cus_00117,799,INR,upi,invalid_account,Invalid account,2,returning_customer,2026-03-12T08:51:00Z,false,0,holdout,20260822
+pay_000830,cus_00332,50000,INR,netbanking,suspected_fraud,Suspected fraud,1,subscription,2026-04-07T16:02:00Z,false,0,holdout,20260822
+pay_000831,cus_00036,1499,INR,card,expired_card,Expired card,1,business_customer,2026-06-07T05:13:00Z,true,1499,holdout,20260822
+pay_000832,cus_00047,12000,INR,card,suspected_fraud,Suspected fraud,1,returning_customer,2026-03-30T11:42:00Z,true,12000,holdout,20260822
+pay_000833,cus_00317,999,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-02-04T02:07:00Z,true,999,holdout,20260822
+pay_000834,cus_00234,50000,INR,card,technical_error,Unknown technical error,1,business_customer,2026-05-20T12:43:00Z,true,50000,holdout,20260822
+pay_000835,cus_00269,1999,INR,netbanking,technical_error,Unknown technical error,2,business_customer,2026-06-06T06:19:00Z,true,1999,holdout,20260822
+pay_000836,cus_00096,499,INR,card,bank_timeout,Bank timeout,1,subscription,2026-02-03T07:08:00Z,false,0,holdout,20260822
+pay_000837,cus_00402,4999,INR,card,technical_error,Unknown technical error,3,business_customer,2026-06-04T10:38:00Z,false,0,holdout,20260822
+pay_000838,cus_00158,25000,INR,upi,invalid_account,Invalid account,4,returning_customer,2026-02-24T08:25:00Z,false,0,holdout,20260822
+pay_000839,cus_00381,7500,INR,card,insufficient_funds,Insufficient funds,2,business_customer,2026-05-01T10:32:00Z,true,7500,holdout,20260822
+pay_000840,cus_00258,7500,INR,card,authentication_failure,Authentication failure,2,new_customer,2026-01-19T19:09:00Z,true,7500,holdout,20260822
+pay_000841,cus_00269,499,INR,card,authentication_failure,Authentication failure,1,business_customer,2026-01-07T06:20:00Z,true,499,holdout,20260822
+pay_000842,cus_00413,499,INR,netbanking,authentication_failure,Authentication failure,1,subscription,2026-04-14T00:46:00Z,true,499,holdout,20260822
+pay_000843,cus_00331,999,INR,netbanking,invalid_account,Invalid account,1,returning_customer,2026-01-08T23:54:00Z,false,0,holdout,20260822
+pay_000844,cus_00174,50000,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-04-29T03:01:00Z,false,0,holdout,20260822
+pay_000845,cus_00306,4999,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-05-27T03:51:00Z,true,4999,holdout,20260822
+pay_000846,cus_00178,12000,INR,card,invalid_account,Invalid account,1,business_customer,2026-06-07T18:08:00Z,false,0,holdout,20260822
+pay_000847,cus_00099,7500,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-04-23T22:03:00Z,false,0,holdout,20260822
+pay_000848,cus_00409,1499,INR,card,expired_card,Expired card,1,subscription,2026-05-03T03:43:00Z,true,1499,holdout,20260822
+pay_000849,cus_00144,4999,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-07T18:31:00Z,false,0,holdout,20260822
+pay_000850,cus_00106,7500,INR,wallet,bank_timeout,Bank timeout,2,subscription,2026-02-14T15:59:00Z,false,0,holdout,20260822
+pay_000851,cus_00217,12000,INR,netbanking,insufficient_funds,Insufficient funds,1,returning_customer,2026-06-07T11:31:00Z,true,12000,holdout,20260822
+pay_000852,cus_00170,7500,INR,upi,invalid_account,Invalid account,1,business_customer,2026-02-03T13:03:00Z,true,7500,holdout,20260822
+pay_000853,cus_00355,499,INR,card,invalid_account,Invalid account,4,returning_customer,2026-05-30T00:07:00Z,false,0,holdout,20260822
+pay_000854,cus_00079,799,INR,upi,bank_timeout,Bank timeout,2,new_customer,2026-04-17T10:29:00Z,true,799,holdout,20260822
+pay_000855,cus_00261,499,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-06-13T13:11:00Z,false,0,holdout,20260822
+pay_000856,cus_00289,1499,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-05-09T01:01:00Z,true,1499,holdout,20260822
+pay_000857,cus_00030,1499,INR,card,expired_card,Expired card,1,business_customer,2026-05-22T13:01:00Z,true,1499,holdout,20260822
+pay_000858,cus_00300,50000,INR,wallet,technical_error,Unknown technical error,2,business_customer,2026-04-02T12:20:00Z,true,50000,holdout,20260822
+pay_000859,cus_00362,50000,INR,wallet,expired_card,Expired card,1,subscription,2026-01-19T09:58:00Z,true,50000,holdout,20260822
+pay_000860,cus_00036,12000,INR,upi,suspected_fraud,Suspected fraud,1,subscription,2026-05-12T08:19:00Z,false,0,holdout,20260822
+pay_000861,cus_00274,7500,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-05-09T22:20:00Z,true,7500,holdout,20260822
+pay_000862,cus_00323,4999,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-04-09T05:50:00Z,true,4999,holdout,20260822
+pay_000863,cus_00403,4999,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-17T04:18:00Z,false,0,holdout,20260822
+pay_000864,cus_00250,2999,INR,card,insufficient_funds,Insufficient funds,1,subscription,2026-04-25T13:42:00Z,false,0,holdout,20260822
+pay_000865,cus_00351,50000,INR,card,bank_timeout,Bank timeout,1,business_customer,2026-05-11T04:04:00Z,true,50000,holdout,20260822
+pay_000866,cus_00105,4999,INR,card,suspected_fraud,Suspected fraud,1,returning_customer,2026-02-28T23:21:00Z,false,0,holdout,20260822
+pay_000867,cus_00023,12000,INR,netbanking,technical_error,Unknown technical error,2,returning_customer,2026-04-13T04:00:00Z,false,0,holdout,20260822
+pay_000868,cus_00114,999,INR,upi,technical_error,Unknown technical error,1,subscription,2026-03-06T11:49:00Z,true,999,holdout,20260822
+pay_000869,cus_00172,4999,INR,upi,invalid_account,Invalid account,1,business_customer,2026-01-14T07:24:00Z,false,0,holdout,20260822
+pay_000870,cus_00320,7500,INR,netbanking,insufficient_funds,Insufficient funds,2,business_customer,2026-06-07T01:22:00Z,false,0,holdout,20260822
+pay_000871,cus_00171,1999,INR,netbanking,insufficient_funds,Insufficient funds,1,new_customer,2026-02-16T07:24:00Z,false,0,holdout,20260822
+pay_000872,cus_00114,799,INR,upi,insufficient_funds,Insufficient funds,1,subscription,2026-03-31T05:25:00Z,false,0,holdout,20260822
+pay_000873,cus_00410,4999,INR,wallet,insufficient_funds,Insufficient funds,3,business_customer,2026-06-15T03:29:00Z,false,0,holdout,20260822
+pay_000874,cus_00284,25000,INR,netbanking,bank_timeout,Bank timeout,4,subscription,2026-04-04T18:14:00Z,true,25000,holdout,20260822
+pay_000875,cus_00413,2999,INR,wallet,bank_timeout,Bank timeout,2,returning_customer,2026-06-18T02:40:00Z,true,2999,holdout,20260822
+pay_000876,cus_00175,4999,INR,wallet,invalid_account,Invalid account,1,returning_customer,2026-06-10T01:20:00Z,false,0,holdout,20260822
+pay_000877,cus_00417,25000,INR,netbanking,technical_error,Unknown technical error,1,subscription,2026-02-27T15:51:00Z,true,25000,holdout,20260822
+pay_000878,cus_00174,4999,INR,wallet,technical_error,Unknown technical error,1,business_customer,2026-03-06T13:39:00Z,true,4999,holdout,20260822
+pay_000879,cus_00108,7500,INR,netbanking,authentication_failure,Authentication failure,3,returning_customer,2026-03-22T11:26:00Z,false,0,holdout,20260822
+pay_000880,cus_00341,2999,INR,netbanking,bank_timeout,Bank timeout,1,subscription,2026-03-01T02:03:00Z,true,2999,holdout,20260822
+pay_000881,cus_00403,799,INR,wallet,technical_error,Unknown technical error,1,subscription,2026-03-28T21:29:00Z,true,799,holdout,20260822
+pay_000882,cus_00199,2999,INR,netbanking,technical_error,Unknown technical error,1,business_customer,2026-01-19T20:06:00Z,false,0,holdout,20260822
+pay_000883,cus_00106,2999,INR,netbanking,bank_timeout,Bank timeout,2,subscription,2026-03-09T09:44:00Z,true,2999,holdout,20260822
+pay_000884,cus_00220,50000,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-05-08T17:50:00Z,true,50000,holdout,20260822
+pay_000885,cus_00368,25000,INR,wallet,technical_error,Unknown technical error,1,business_customer,2026-01-08T11:42:00Z,false,0,holdout,20260822
+pay_000886,cus_00127,7500,INR,wallet,authentication_failure,Authentication failure,2,new_customer,2026-04-20T13:52:00Z,false,0,holdout,20260822
+pay_000887,cus_00307,7500,INR,wallet,insufficient_funds,Insufficient funds,1,returning_customer,2026-01-11T19:50:00Z,false,0,holdout,20260822
+pay_000888,cus_00345,499,INR,upi,bank_timeout,Bank timeout,4,new_customer,2026-03-13T15:20:00Z,false,0,holdout,20260822
+pay_000889,cus_00101,1999,INR,card,expired_card,Expired card,1,business_customer,2026-05-04T22:14:00Z,true,1999,holdout,20260822
+pay_000890,cus_00284,7500,INR,wallet,bank_timeout,Bank timeout,1,business_customer,2026-01-23T00:30:00Z,true,7500,holdout,20260822
+pay_000891,cus_00086,799,INR,netbanking,expired_card,Expired card,2,new_customer,2026-02-09T00:05:00Z,false,0,holdout,20260822
+pay_000892,cus_00171,25000,INR,upi,expired_card,Expired card,1,business_customer,2026-04-22T04:27:00Z,true,25000,holdout,20260822
+pay_000893,cus_00305,25000,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,2,subscription,2026-01-25T15:39:00Z,false,0,holdout,20260822
+pay_000894,cus_00267,12000,INR,card,bank_timeout,Bank timeout,1,subscription,2026-05-31T12:11:00Z,true,12000,holdout,20260822
+pay_000895,cus_00016,7500,INR,card,insufficient_funds,Insufficient funds,3,returning_customer,2026-04-18T21:46:00Z,false,0,holdout,20260822
+pay_000896,cus_00351,12000,INR,upi,bank_timeout,Bank timeout,1,new_customer,2026-01-09T20:02:00Z,true,12000,holdout,20260822
+pay_000897,cus_00331,7500,INR,wallet,suspected_fraud,Suspected fraud,1,new_customer,2026-01-13T06:15:00Z,false,0,holdout,20260822
+pay_000898,cus_00302,2999,INR,netbanking,authentication_failure,Authentication failure,3,subscription,2026-02-20T19:27:00Z,false,0,holdout,20260822
+pay_000899,cus_00132,50000,INR,wallet,technical_error,Unknown technical error,1,subscription,2026-01-20T06:38:00Z,true,50000,holdout,20260822
+pay_000900,cus_00398,499,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-04-18T08:02:00Z,true,499,holdout,20260822
+pay_000901,cus_00402,2999,INR,wallet,bank_timeout,Bank timeout,3,business_customer,2026-03-06T17:48:00Z,false,0,holdout,20260822
+pay_000902,cus_00340,4999,INR,netbanking,insufficient_funds,Insufficient funds,3,new_customer,2026-02-14T18:41:00Z,false,0,holdout,20260822
+pay_000903,cus_00404,1999,INR,card,insufficient_funds,Insufficient funds,2,subscription,2026-04-24T01:29:00Z,false,0,holdout,20260822
+pay_000904,cus_00296,499,INR,card,invalid_account,Invalid account,1,returning_customer,2026-01-10T08:57:00Z,false,0,holdout,20260822
+pay_000905,cus_00101,1499,INR,card,bank_timeout,Bank timeout,1,returning_customer,2026-02-09T00:44:00Z,true,1499,holdout,20260822
+pay_000906,cus_00084,4999,INR,card,bank_timeout,Bank timeout,3,subscription,2026-02-16T14:22:00Z,false,0,holdout,20260822
+pay_000907,cus_00415,25000,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-04-15T19:47:00Z,false,0,holdout,20260822
+pay_000908,cus_00070,1499,INR,netbanking,suspected_fraud,Suspected fraud,2,new_customer,2026-06-16T14:03:00Z,false,0,holdout,20260822
+pay_000909,cus_00014,7500,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-02-23T09:31:00Z,true,7500,holdout,20260822
+pay_000910,cus_00352,2999,INR,card,authentication_failure,Authentication failure,3,new_customer,2026-02-20T19:36:00Z,false,0,holdout,20260822
+pay_000911,cus_00407,499,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-05-19T07:03:00Z,true,499,holdout,20260822
+pay_000912,cus_00304,25000,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-02-18T02:12:00Z,true,25000,holdout,20260822
+pay_000913,cus_00184,999,INR,netbanking,daily_limit_exceeded,Daily limit exceeded,1,returning_customer,2026-01-30T22:50:00Z,false,0,holdout,20260822
+pay_000914,cus_00203,12000,INR,wallet,technical_error,Unknown technical error,4,new_customer,2026-05-05T06:58:00Z,false,0,holdout,20260822
+pay_000915,cus_00297,7500,INR,netbanking,technical_error,Unknown technical error,2,new_customer,2026-05-26T13:17:00Z,true,7500,holdout,20260822
+pay_000916,cus_00263,25000,INR,wallet,expired_card,Expired card,1,business_customer,2026-06-09T22:24:00Z,true,25000,holdout,20260822
+pay_000917,cus_00195,7500,INR,card,authentication_failure,Authentication failure,2,subscription,2026-05-10T23:44:00Z,false,0,holdout,20260822
+pay_000918,cus_00325,1499,INR,netbanking,suspected_fraud,Suspected fraud,2,subscription,2026-05-31T21:16:00Z,false,0,holdout,20260822
+pay_000919,cus_00069,25000,INR,card,bank_timeout,Bank timeout,4,subscription,2026-04-30T20:58:00Z,false,0,holdout,20260822
+pay_000920,cus_00150,799,INR,netbanking,invalid_account,Invalid account,2,returning_customer,2026-06-24T23:56:00Z,false,0,holdout,20260822
+pay_000921,cus_00294,25000,INR,upi,invalid_account,Invalid account,1,business_customer,2026-04-23T02:15:00Z,false,0,holdout,20260822
+pay_000922,cus_00167,1499,INR,wallet,technical_error,Unknown technical error,2,returning_customer,2026-06-26T17:31:00Z,true,1499,holdout,20260822
+pay_000923,cus_00356,50000,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-05-21T18:01:00Z,true,50000,holdout,20260822
+pay_000924,cus_00413,4999,INR,card,insufficient_funds,Insufficient funds,1,new_customer,2026-05-14T21:52:00Z,true,4999,holdout,20260822
+pay_000925,cus_00227,999,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-01-02T13:49:00Z,false,0,holdout,20260822
+pay_000926,cus_00060,50000,INR,wallet,daily_limit_exceeded,Daily limit exceeded,2,subscription,2026-03-13T06:49:00Z,true,50000,holdout,20260822
+pay_000927,cus_00049,2999,INR,wallet,invalid_account,Invalid account,3,business_customer,2026-01-21T10:18:00Z,false,0,holdout,20260822
+pay_000928,cus_00059,2999,INR,upi,authentication_failure,Authentication failure,3,subscription,2026-01-16T22:19:00Z,false,0,holdout,20260822
+pay_000929,cus_00368,999,INR,wallet,invalid_account,Invalid account,1,subscription,2026-06-09T09:04:00Z,false,0,holdout,20260822
+pay_000930,cus_00033,4999,INR,upi,bank_timeout,Bank timeout,1,returning_customer,2026-04-21T19:15:00Z,true,4999,holdout,20260822
+pay_000931,cus_00128,50000,INR,card,daily_limit_exceeded,Daily limit exceeded,1,business_customer,2026-01-05T16:57:00Z,false,0,holdout,20260822
+pay_000932,cus_00254,999,INR,wallet,authentication_failure,Authentication failure,1,returning_customer,2026-01-08T04:55:00Z,true,999,holdout,20260822
+pay_000933,cus_00146,1499,INR,netbanking,expired_card,Expired card,2,returning_customer,2026-03-27T03:03:00Z,true,1499,holdout,20260822
+pay_000934,cus_00375,7500,INR,wallet,expired_card,Expired card,3,new_customer,2026-04-24T19:27:00Z,true,7500,holdout,20260822
+pay_000935,cus_00395,999,INR,card,authentication_failure,Authentication failure,1,subscription,2026-02-11T22:34:00Z,false,0,holdout,20260822
+pay_000936,cus_00257,7500,INR,card,bank_timeout,Bank timeout,2,returning_customer,2026-05-06T20:36:00Z,true,7500,holdout,20260822
+pay_000937,cus_00034,799,INR,netbanking,bank_timeout,Bank timeout,1,returning_customer,2026-02-23T11:12:00Z,true,799,holdout,20260822
+pay_000938,cus_00108,25000,INR,netbanking,technical_error,Unknown technical error,1,business_customer,2026-06-20T11:22:00Z,false,0,holdout,20260822
+pay_000939,cus_00050,25000,INR,upi,insufficient_funds,Insufficient funds,2,business_customer,2026-03-10T16:53:00Z,false,0,holdout,20260822
+pay_000940,cus_00138,499,INR,netbanking,bank_timeout,Bank timeout,1,business_customer,2026-01-12T03:29:00Z,false,0,holdout,20260822
+pay_000941,cus_00086,12000,INR,netbanking,authentication_failure,Authentication failure,1,subscription,2026-05-08T13:25:00Z,true,12000,holdout,20260822
+pay_000942,cus_00158,4999,INR,card,authentication_failure,Authentication failure,1,subscription,2026-04-27T09:07:00Z,true,4999,holdout,20260822
+pay_000943,cus_00416,999,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-03-20T10:23:00Z,false,0,holdout,20260822
+pay_000944,cus_00189,499,INR,wallet,insufficient_funds,Insufficient funds,1,business_customer,2026-01-31T12:08:00Z,true,499,holdout,20260822
+pay_000945,cus_00242,2999,INR,wallet,bank_timeout,Bank timeout,1,returning_customer,2026-04-11T03:55:00Z,false,0,holdout,20260822
+pay_000946,cus_00259,4999,INR,card,bank_timeout,Bank timeout,2,subscription,2026-04-11T08:49:00Z,true,4999,holdout,20260822
+pay_000947,cus_00388,1999,INR,wallet,bank_timeout,Bank timeout,3,subscription,2026-03-28T09:27:00Z,true,1999,holdout,20260822
+pay_000948,cus_00176,799,INR,wallet,authentication_failure,Authentication failure,1,business_customer,2026-05-24T17:42:00Z,false,0,holdout,20260822
+pay_000949,cus_00359,1499,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-03-18T18:24:00Z,true,1499,holdout,20260822
+pay_000950,cus_00340,12000,INR,upi,technical_error,Unknown technical error,4,subscription,2026-04-07T07:48:00Z,false,0,holdout,20260822
+pay_000951,cus_00141,4999,INR,card,authentication_failure,Authentication failure,1,subscription,2026-06-19T14:44:00Z,false,0,holdout,20260822
+pay_000952,cus_00374,499,INR,netbanking,invalid_account,Invalid account,1,new_customer,2026-06-19T02:28:00Z,false,0,holdout,20260822
+pay_000953,cus_00124,7500,INR,upi,daily_limit_exceeded,Daily limit exceeded,2,returning_customer,2026-03-10T23:37:00Z,true,7500,holdout,20260822
+pay_000954,cus_00022,4999,INR,upi,insufficient_funds,Insufficient funds,1,new_customer,2026-06-29T20:11:00Z,false,0,holdout,20260822
+pay_000955,cus_00366,2999,INR,wallet,expired_card,Expired card,1,subscription,2026-05-22T18:42:00Z,true,2999,holdout,20260822
+pay_000956,cus_00162,1499,INR,wallet,bank_timeout,Bank timeout,2,subscription,2026-05-02T05:02:00Z,true,1499,holdout,20260822
+pay_000957,cus_00245,999,INR,card,expired_card,Expired card,1,subscription,2026-03-25T20:46:00Z,true,999,holdout,20260822
+pay_000958,cus_00318,1499,INR,wallet,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-02-12T06:32:00Z,false,0,holdout,20260822
+pay_000959,cus_00173,799,INR,wallet,insufficient_funds,Insufficient funds,1,new_customer,2026-02-28T16:10:00Z,false,0,holdout,20260822
+pay_000960,cus_00227,2999,INR,wallet,expired_card,Expired card,1,returning_customer,2026-01-21T10:52:00Z,true,2999,holdout,20260822
+pay_000961,cus_00396,25000,INR,netbanking,authentication_failure,Authentication failure,1,new_customer,2026-05-16T23:27:00Z,true,25000,holdout,20260822
+pay_000962,cus_00141,50000,INR,card,authentication_failure,Authentication failure,2,returning_customer,2026-04-12T15:35:00Z,false,0,holdout,20260822
+pay_000963,cus_00272,50000,INR,wallet,insufficient_funds,Insufficient funds,2,new_customer,2026-06-02T07:43:00Z,false,0,holdout,20260822
+pay_000964,cus_00291,4999,INR,upi,bank_timeout,Bank timeout,2,subscription,2026-04-28T11:59:00Z,true,4999,holdout,20260822
+pay_000965,cus_00081,1499,INR,upi,daily_limit_exceeded,Daily limit exceeded,1,subscription,2026-03-17T07:57:00Z,false,0,holdout,20260822
+pay_000966,cus_00377,1999,INR,card,bank_timeout,Bank timeout,4,returning_customer,2026-03-04T20:25:00Z,false,0,holdout,20260822
+pay_000967,cus_00084,1499,INR,card,technical_error,Unknown technical error,1,returning_customer,2026-06-05T00:59:00Z,true,1499,holdout,20260822
+pay_000968,cus_00115,25000,INR,card,bank_timeout,Bank timeout,2,business_customer,2026-02-11T12:10:00Z,false,0,holdout,20260822
+pay_000969,cus_00359,1999,INR,card,insufficient_funds,Insufficient funds,2,new_customer,2026-06-22T15:10:00Z,false,0,holdout,20260822
+pay_000970,cus_00004,50000,INR,wallet,insufficient_funds,Insufficient funds,1,subscription,2026-06-26T02:20:00Z,true,50000,holdout,20260822
+pay_000971,cus_00322,1999,INR,card,bank_timeout,Bank timeout,1,new_customer,2026-02-23T04:58:00Z,true,1999,holdout,20260822
+pay_000972,cus_00225,25000,INR,card,insufficient_funds,Insufficient funds,3,new_customer,2026-03-22T15:18:00Z,false,0,holdout,20260822
+pay_000973,cus_00358,12000,INR,upi,authentication_failure,Authentication failure,1,business_customer,2026-01-27T09:35:00Z,true,12000,holdout,20260822
+pay_000974,cus_00119,25000,INR,netbanking,authentication_failure,Authentication failure,3,business_customer,2026-06-02T23:38:00Z,true,25000,holdout,20260822
+pay_000975,cus_00234,499,INR,card,bank_timeout,Bank timeout,2,business_customer,2026-01-14T16:58:00Z,true,499,holdout,20260822
+pay_000976,cus_00414,50000,INR,upi,invalid_account,Invalid account,3,new_customer,2026-06-28T09:12:00Z,false,0,holdout,20260822
+pay_000977,cus_00137,799,INR,card,insufficient_funds,Insufficient funds,3,new_customer,2026-03-06T11:43:00Z,false,0,holdout,20260822
+pay_000978,cus_00315,7500,INR,card,insufficient_funds,Insufficient funds,3,subscription,2026-02-14T21:04:00Z,false,0,holdout,20260822
+pay_000979,cus_00405,799,INR,netbanking,technical_error,Unknown technical error,1,subscription,2026-06-03T05:50:00Z,true,799,holdout,20260822
+pay_000980,cus_00272,50000,INR,card,technical_error,Unknown technical error,1,new_customer,2026-06-05T22:58:00Z,false,0,holdout,20260822
+pay_000981,cus_00203,499,INR,card,bank_timeout,Bank timeout,1,subscription,2026-05-09T21:48:00Z,true,499,holdout,20260822
+pay_000982,cus_00076,4999,INR,netbanking,bank_timeout,Bank timeout,2,returning_customer,2026-02-02T04:52:00Z,false,0,holdout,20260822
+pay_000983,cus_00409,50000,INR,upi,insufficient_funds,Insufficient funds,2,returning_customer,2026-04-30T21:01:00Z,false,0,holdout,20260822
+pay_000984,cus_00253,499,INR,card,expired_card,Expired card,1,returning_customer,2026-03-01T06:56:00Z,true,499,holdout,20260822
+pay_000985,cus_00004,499,INR,card,technical_error,Unknown technical error,1,new_customer,2026-06-15T19:20:00Z,true,499,holdout,20260822
+pay_000986,cus_00218,50000,INR,card,technical_error,Unknown technical error,1,new_customer,2026-04-09T03:04:00Z,true,50000,holdout,20260822
+pay_000987,cus_00301,499,INR,netbanking,authentication_failure,Authentication failure,2,new_customer,2026-02-07T17:22:00Z,false,0,holdout,20260822
+pay_000988,cus_00242,1499,INR,wallet,authentication_failure,Authentication failure,2,returning_customer,2026-03-14T18:43:00Z,true,1499,holdout,20260822
+pay_000989,cus_00191,50000,INR,upi,authentication_failure,Authentication failure,2,subscription,2026-05-28T22:19:00Z,false,0,holdout,20260822
+pay_000990,cus_00150,1999,INR,upi,expired_card,Expired card,3,new_customer,2026-04-25T17:40:00Z,true,1999,holdout,20260822
+pay_000991,cus_00068,25000,INR,upi,expired_card,Expired card,1,business_customer,2026-05-04T16:45:00Z,true,25000,holdout,20260822
+pay_000992,cus_00167,2999,INR,card,expired_card,Expired card,1,new_customer,2026-04-07T07:39:00Z,true,2999,holdout,20260822
+pay_000993,cus_00252,799,INR,wallet,authentication_failure,Authentication failure,1,returning_customer,2026-02-07T06:45:00Z,true,799,holdout,20260822
+pay_000994,cus_00272,1499,INR,netbanking,technical_error,Unknown technical error,2,new_customer,2026-06-12T23:21:00Z,true,1499,holdout,20260822
+pay_000995,cus_00006,799,INR,wallet,insufficient_funds,Insufficient funds,2,subscription,2026-04-04T11:47:00Z,false,0,holdout,20260822
+pay_000996,cus_00276,25000,INR,netbanking,bank_timeout,Bank timeout,1,new_customer,2026-06-27T00:05:00Z,false,0,holdout,20260822
+pay_000997,cus_00114,1499,INR,netbanking,bank_timeout,Bank timeout,3,subscription,2026-03-12T21:48:00Z,true,1499,holdout,20260822
+pay_000998,cus_00284,1499,INR,card,suspected_fraud,Suspected fraud,2,subscription,2026-02-22T09:34:00Z,false,0,holdout,20260822
+pay_000999,cus_00162,7500,INR,card,technical_error,Unknown technical error,3,subscription,2026-06-20T11:03:00Z,true,7500,holdout,20260822
+pay_001000,cus_00206,2999,INR,wallet,invalid_account,Invalid account,1,subscription,2026-02-02T11:45:00Z,false,0,holdout,20260822

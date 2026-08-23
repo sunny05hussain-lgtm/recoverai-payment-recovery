@@ -1,0 +1,2 @@
+# Day 1 uses only the Python standard library.
+# Backend dependencies will be added on Day 2.
