@@ -13,3 +13,4 @@ build/
 *.sqlite
 .DS_Store
 data/*.generated.csv
+data/audit_log.jsonl
