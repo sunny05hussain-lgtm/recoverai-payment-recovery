@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const API_URL = "http://127.0.0.1:8000";
 
@@ -101,6 +102,12 @@ export default function Home() {
           <p className="mt-3 text-slate-400">
             Monitor failed payments, recovery progress, and revenue at risk.
           </p>
+<Link
+  href="/recovery"
+  className="mt-6 inline-block rounded-lg bg-cyan-400 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-300"
+>
+  Open Recovery Preview
+</Link>
         </div>
 
         {analytics && (
