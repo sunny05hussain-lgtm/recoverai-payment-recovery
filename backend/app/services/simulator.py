@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 AUDIT_FILE = (
-    Path(__file__).resolve().parents[2]
+    Path(__file__).resolve().parents[3]
     / "data"
     / "audit_log.jsonl"
 )
