@@ -108,6 +108,12 @@ export default function Home() {
 >
   Open Recovery Preview
 </Link>
+<Link
+  href="/audit"
+  className="ml-3 inline-block rounded-lg border border-slate-700 px-5 py-3 font-semibold text-slate-200 hover:border-cyan-400 hover:text-cyan-400"
+>
+  View Audit Log
+</Link>
         </div>
 
         {analytics && (
