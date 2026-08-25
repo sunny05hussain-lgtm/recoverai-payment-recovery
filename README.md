@@ -10,11 +10,11 @@ Merchants lose revenue when failed payments, checkout abandonment, and subscript
 
 ## Day 1 scope
 
-- Build only with synthetic payment data.
-- Represent payment failures and recovery outcomes in a reproducible CSV dataset.
-- Keep all recovery actions simulated.
-- Never expose real customer information or real payment credentials.
-- Make every AI recommendation explainable and subject to deterministic safety rules.
+* Build only with synthetic payment data.
+* Represent payment failures and recovery outcomes in a reproducible CSV dataset.
+* Keep all recovery actions simulated.
+* Never expose real customer information or real payment credentials.
+* Make every AI recommendation explainable and subject to deterministic safety rules.
 
 ## Planned workflow
 
@@ -39,7 +39,7 @@ scripts/       Reproducible data-generation utilities
 From the repository root:
 
 ```bash
-python scripts/generate_dataset.py
+python scripts/generate\_dataset.py
 ```
 
 The command creates `data/payments.csv` with 1,000 synthetic payment records.
@@ -47,26 +47,26 @@ The command creates `data/payments.csv` with 1,000 synthetic payment records.
 To inspect the generated data:
 
 ```bash
-python -c "import csv; rows=list(csv.DictReader(open('data/payments.csv'))); print(len(rows)); print(rows[0])"
+python -c "import csv; rows=list(csv.DictReader(open('data/payments.csv'))); print(len(rows)); print(rows\[0])"
 ```
 
 ## Planned stack
 
-- Backend: Python and FastAPI
-- Frontend: Next.js and TypeScript
-- Database: SQLite during development
-- AI: structured JSON classification and recommendation
-- Charts: Recharts
-- Deployment: frontend and backend deployed separately
+* Backend: Python and FastAPI
+* Frontend: Next.js and TypeScript
+* Database: SQLite during development
+* AI: structured JSON classification and recommendation
+* Charts: Recharts
+* Deployment: frontend and backend deployed separately
 
 ## Safety principles
 
 The AI will suggest an action; it will not execute an unrestricted financial action. Deterministic rules will reject or limit recommendations when:
 
-- the failure is suspected fraud;
-- the payment has already reached the retry limit;
-- the amount requires manual approval; or
-- the model response is invalid or too uncertain.
+* the failure is suspected fraud;
+* the payment has already reached the retry limit;
+* the amount requires manual approval; or
+* the model response is invalid or too uncertain.
 
 ## Current status
 
@@ -75,3 +75,48 @@ Day 1 foundation: scope, decisions, repository structure, and synthetic data gen
 ## Disclaimer
 
 This is a student project using synthetic data and simulated outcomes. It is not connected to production Razorpay systems and is not suitable for making real financial decisions.
+
+# Evaluation
+
+
+
+The project evaluates its recovery outcomes on a held-out synthetic dataset.
+
+
+
+The evaluation measures:
+
+
+
+\- Revenue at risk
+
+\- Revenue recovered
+
+\- Recovery rate
+
+\- Average attempts
+
+\- Recovery results by failure reason
+
+\- Suspected-fraud records
+
+\- Safety-rule behavior
+
+
+
+The reproducible evaluation report is available at:
+
+
+
+\[Evaluation results](docs/evaluation-results.md)
+
+
+
+Run the evaluation locally with:
+
+
+
+```bash
+
+python scripts/evaluate\_dataset.py
+
