@@ -120,12 +120,6 @@ export default function Home() {
 >
   Run Simulation
 </Link>
-<Link
-  href="/simulation"
-  className="ml-3 inline-block rounded-lg border border-emerald-400/50 px-5 py-3 font-semibold text-emerald-300 hover:bg-emerald-400/10"
->
-  Run Simulation
-</Link>
         </div>
 
         {analytics && (
